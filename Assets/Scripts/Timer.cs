@@ -12,14 +12,14 @@ public class Timer : MonoBehaviour
 
     public Image timer;
 
-    public void resetTime()
+    public void ResetTimer()
     {
 
         time = 10;
         timeRemaining = time;
     }
 
-    void updateTimer()
+    void UpdateTimer()
     {
         if (timeRemaining <= 0)
         {
@@ -30,7 +30,7 @@ public class Timer : MonoBehaviour
             //timer.GetComponentInChildren<Text>().text = "Temps Restant: " + Mathf.Round(timeRemaining);
             timeRemaining -= Time.deltaTime;
             timer.fillAmount = timeRemaining / time;
-            Debug.Log(timeRemaining);
+            //Debug.Log(timeRemaining);
         }
     }
 
@@ -43,8 +43,6 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        updateTimer();
-        if (Input.anyKeyDown)
-            resetTime();
+        UpdateTimer();
     }
 }

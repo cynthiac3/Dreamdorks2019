@@ -20,7 +20,7 @@ public class XboxController : MonoBehaviour {
         subject = canvas.GetComponent<RandomQuestions>().MathQuestions;
     }
 
-    void OnButtonClick()
+    public void OnButtonClick()
     {
         var go = EventSystem.current.currentSelectedGameObject;
         if (go != null)
@@ -39,7 +39,7 @@ public class XboxController : MonoBehaviour {
                     canvas.GetComponent<Health>().GotHit();
             }
 
-            canvas.GetComponent<RandomQuestions>().getQuestion(subject);
+            canvas.GetComponent<RandomQuestions>().getQuestion(canvas.GetComponent<RandomQuestions>().bossFight);
         }
         else
             Debug.Log("null");
