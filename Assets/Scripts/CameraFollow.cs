@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour {
 
+    public Animator animator;
+
     public float sensitivityX = 5F;
     public float sensitivityY = 5F;
 
@@ -19,6 +21,10 @@ public class CameraFollow : MonoBehaviour {
     float rotationY = 0F;
     float rotationX = 0f;
 
+    void Start()
+    {
+        animator = this.GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -34,6 +40,11 @@ public class CameraFollow : MonoBehaviour {
         }
 
         transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
+
+        if (Input.GetAxis("Right Joystick") * sensitivityY < -1)
+            animator.SetBool("isZooming", true);
+        else if (Input.GetAxis("Right Joystick") * sensitivityY > 1)
+            animator.SetBool("isZooming", false);
     }
 
 
