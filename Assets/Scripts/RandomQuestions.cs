@@ -25,6 +25,7 @@ public class RandomQuestions : MonoBehaviour
 
     public void getQuestion(string[][] Subject)
     {
+        string[][] subject;
         if (numQuestions >= 0)
         {
             int number = Random.Range(0, numQuestions);
