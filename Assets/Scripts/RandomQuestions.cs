@@ -16,14 +16,14 @@ public class RandomQuestions : MonoBehaviour
 
     int numQuestions = 9;
 
-    string[][] MathQuestions = new string[10][];
-    string[][] GeoQuestions = new string[10][];
-    string[][] ScienceQuestions = new string[10][];
-    string[][] FrenchQuestions = new string[10][];
+    public string[][] MathQuestions = new string[10][];
+    public string[][] GeoQuestions = new string[10][];
+    public string[][] ScienceQuestions = new string[10][];
+    public string[][] FrenchQuestions = new string[10][];
 
     public string answer;
 
-    void getQuestion(string[][] Subject)
+    public void getQuestion(string[][] Subject)
     {
         if (numQuestions >= 0)
         {

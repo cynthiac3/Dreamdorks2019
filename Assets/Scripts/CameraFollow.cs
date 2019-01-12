@@ -22,14 +22,14 @@ public class CameraFollow : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetAxis("LJoystick X") * sensitivityX > 1 || Input.GetAxis("LJoystick X") * sensitivityX < -1)
+        if (Input.GetAxis("Mouse X") * sensitivityX > 1 || Input.GetAxis("Mouse X") * sensitivityX < -1)
         {
-            rotationX += Input.GetAxis("LJoystick X") * sensitivityX;
+            rotationX += Input.GetAxis("Mouse X") * sensitivityX;
             rotationX = Mathf.Clamp(rotationX, minimumX, maximumX);
         }
-        if (Input.GetAxis("LJoystick Y") * sensitivityY > 1 || Input.GetAxis("LJoystick Y") * sensitivityY < -1)
+        if (Input.GetAxis("Mouse Y") * sensitivityY > 1 || Input.GetAxis("Mouse Y") * sensitivityY < -1)
         {
-            rotationY += Input.GetAxis("LJoystick Y") * sensitivityY;
+            rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
             rotationY = Mathf.Clamp(rotationY, minimumY, maximumY);
         }
 
