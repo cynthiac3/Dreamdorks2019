@@ -41,8 +41,6 @@ public class RandomQuestions : MonoBehaviour
             if (number < numQuestions)
                 Subject[number] = Subject[numQuestions];
             numQuestions--;
-            Debug.Log(questionText.text);
-            Debug.Log(numQuestions);
         }
     }
 

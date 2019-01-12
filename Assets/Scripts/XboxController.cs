@@ -27,9 +27,18 @@ public class XboxController : MonoBehaviour {
         {
             Debug.Log(go.GetComponentInChildren<Text>().text);
             if (canvas.GetComponent<RandomQuestions>().getAnswer(canvas.GetComponent<RandomQuestions>().answer, go.GetComponentInChildren<Text>().text))
+            {
                 Debug.Log("Good!");
+                if (canvas.GetComponent<Health>().currentTeacherHP > 0)
+                    canvas.GetComponent<Health>().AttackTeacher();
+            }
             else
+            {
                 Debug.Log("Wrong!");
+                if (canvas.GetComponent<Health>().currentPlayerHP > 0)
+                    canvas.GetComponent<Health>().GotHit();
+            }
+
             canvas.GetComponent<RandomQuestions>().getQuestion(subject);
         }
         else
