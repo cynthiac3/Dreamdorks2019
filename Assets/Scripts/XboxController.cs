@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 
 public class XboxController : MonoBehaviour {
 
+
     public GameObject canvas;
     public Button buttonA;
     public Button buttonB;
@@ -99,6 +100,8 @@ public class XboxController : MonoBehaviour {
             EventSystem.current.SetSelectedGameObject(null);
 
         }
+
+   
         
 
     }

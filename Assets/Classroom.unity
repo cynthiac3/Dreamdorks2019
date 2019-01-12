@@ -281,7 +281,7 @@ TextMesh:
   m_CharacterSize: 0.1
   m_LineSpacing: 1
   m_Anchor: 4
-  m_Alignment: 0
+  m_Alignment: 1
   m_TabSize: 4
   m_FontSize: 168
   m_FontStyle: 0
@@ -373,11 +373,11 @@ RectTransform:
   m_Father: {fileID: 2096238729}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 482.1, y: -436}
-  m_SizeDelta: {x: 100, y: 28.88}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 96, y: 0}
+  m_SizeDelta: {x: 100, y: 28.880005}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &171896732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,11 +524,11 @@ RectTransform:
   m_Father: {fileID: 2096238729}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: -180, y: 0, z: 180}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 503.00003, y: -436}
-  m_SizeDelta: {x: 100, y: 28.88}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -102, y: 0}
+  m_SizeDelta: {x: 100, y: 28.880005}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &209129578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2663,6 +2663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e76751148cb059a4ab1f719ba01ae999, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   sensitivityX: 15
   sensitivityY: 15
   minimumX: -26
@@ -2690,7 +2691,7 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1908405773}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 87c9de819033be841831e3608a4bc974, type: 2}
   m_CullingMode: 0
@@ -2920,7 +2921,7 @@ MonoBehaviour:
   TextA: {fileID: 2110174898}
   TextB: {fileID: 1444967652}
   text3D: {fileID: 152941506}
-  bossFight: 3
+  bossFight: 0
   answer: 
 --- !u!114 &2096238732
 MonoBehaviour:
