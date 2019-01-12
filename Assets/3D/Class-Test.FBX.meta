@@ -1,0 +1,798 @@
+fileFormatVersion: 2
+guid: 137200dcf0da31845b59d1451a1a6057
+timeCreated: 1547325434
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Bip001 Footsteps
+    100002: Bip001 Head
+    100004: Bip001 HeadNub
+    100006: Bip001 L Calf
+    100008: Bip001 L Clavicle
+    100010: Bip001 L Finger0
+    100012: Bip001 L Finger0Nub
+    100014: Bip001 L Foot
+    100016: Bip001 L Forearm
+    100018: Bip001 L Hand
+    100020: Bip001 L Thigh
+    100022: Bip001 L Toe0
+    100024: Bip001 L Toe01
+    100026: Bip001 L Toe02
+    100028: Bip001 L Toe0Nub
+    100030: Bip001 L UpperArm
+    100032: Bip001 Neck
+    100034: Bip001 Pelvis
+    100036: Bip001 R Calf
+    100038: Bip001 R Clavicle
+    100040: Bip001 R Finger0
+    100042: Bip001 R Finger0Nub
+    100044: Bip001 R Foot
+    100046: Bip001 R Forearm
+    100048: Bip001 R Hand
+    100050: Bip001 R Thigh
+    100052: Bip001 R Toe0
+    100054: Bip001 R Toe01
+    100056: Bip001 R Toe02
+    100058: Bip001 R Toe0Nub
+    100060: Bip001 R UpperArm
+    100062: Bip001 Spine
+    100064: Bip001 Spine1
+    100066: Bip001 Spine2
+    100068: Bip001 Spine3
+    100070: Bip002 Footsteps
+    100072: Bip002 Head
+    100074: Bip002 HeadNub
+    100076: Bip002 L Calf
+    100078: Bip002 L Clavicle
+    100080: Bip002 L Finger0
+    100082: Bip002 L Finger0Nub
+    100084: Bip002 L Foot
+    100086: Bip002 L Forearm
+    100088: Bip002 L Hand
+    100090: Bip002 L Thigh
+    100092: Bip002 L Toe0
+    100094: Bip002 L Toe01
+    100096: Bip002 L Toe02
+    100098: Bip002 L Toe0Nub
+    100100: Bip002 L UpperArm
+    100102: Bip002 Neck
+    100104: Bip002 Pelvis
+    100106: Bip002 R Calf
+    100108: Bip002 R Clavicle
+    100110: Bip002 R Finger0
+    100112: Bip002 R Finger0Nub
+    100114: Bip002 R Foot
+    100116: Bip002 R Forearm
+    100118: Bip002 R Hand
+    100120: Bip002 R Thigh
+    100122: Bip002 R Toe0
+    100124: Bip002 R Toe01
+    100126: Bip002 R Toe02
+    100128: Bip002 R Toe0Nub
+    100130: Bip002 R UpperArm
+    100132: Bip002 Spine
+    100134: Bip002 Spine1
+    100136: Bip002 Spine2
+    100138: Bip002 Spine3
+    100140: Bip003 Footsteps
+    100142: Bip003 Head
+    100144: Bip003 HeadNub
+    100146: Bip003 L Calf
+    100148: Bip003 L Clavicle
+    100150: Bip003 L Finger0
+    100152: Bip003 L Finger0Nub
+    100154: Bip003 L Foot
+    100156: Bip003 L Forearm
+    100158: Bip003 L Hand
+    100160: Bip003 L Thigh
+    100162: Bip003 L Toe0
+    100164: Bip003 L Toe01
+    100166: Bip003 L Toe02
+    100168: Bip003 L Toe0Nub
+    100170: Bip003 L UpperArm
+    100172: Bip003 Neck
+    100174: Bip003 Pelvis
+    100176: Bip003 R Calf
+    100178: Bip003 R Clavicle
+    100180: Bip003 R Finger0
+    100182: Bip003 R Finger0Nub
+    100184: Bip003 R Foot
+    100186: Bip003 R Forearm
+    100188: Bip003 R Hand
+    100190: Bip003 R Thigh
+    100192: Bip003 R Toe0
+    100194: Bip003 R Toe01
+    100196: Bip003 R Toe02
+    100198: Bip003 R Toe0Nub
+    100200: Bip003 R UpperArm
+    100202: Bip003 Spine
+    100204: Bip003 Spine1
+    100206: Bip003 Spine2
+    100208: Bip003 Spine3
+    100210: Bip004 Footsteps
+    100212: Bip004 Head
+    100214: Bip004 HeadNub
+    100216: Bip004 L Calf
+    100218: Bip004 L Clavicle
+    100220: Bip004 L Finger0
+    100222: Bip004 L Finger0Nub
+    100224: Bip004 L Foot
+    100226: Bip004 L Forearm
+    100228: Bip004 L Hand
+    100230: Bip004 L Thigh
+    100232: Bip004 L Toe0
+    100234: Bip004 L Toe01
+    100236: Bip004 L Toe02
+    100238: Bip004 L Toe0Nub
+    100240: Bip004 L UpperArm
+    100242: Bip004 Neck
+    100244: Bip004 Pelvis
+    100246: Bip004 R Calf
+    100248: Bip004 R Clavicle
+    100250: Bip004 R Finger0
+    100252: Bip004 R Finger0Nub
+    100254: Bip004 R Foot
+    100256: Bip004 R Forearm
+    100258: Bip004 R Hand
+    100260: Bip004 R Thigh
+    100262: Bip004 R Toe0
+    100264: Bip004 R Toe01
+    100266: Bip004 R Toe02
+    100268: Bip004 R Toe0Nub
+    100270: Bip004 R UpperArm
+    100272: Bip004 Spine
+    100274: Bip004 Spine1
+    100276: Bip004 Spine2
+    100278: Bip004 Spine3
+    100280: Blackboard
+    100282: Book-Close
+    100284: Book-Close001
+    100286: Book-Close002
+    100288: Book-Close003
+    100290: Book-Close004
+    100292: Book-Close005
+    100294: Book-Close006
+    100296: Book-Close007
+    100298: Book-Close008
+    100300: Book-Close009
+    100302: Book-Open
+    100304: Book-Open001
+    100306: Book-Open002
+    100308: Box001
+    100310: Box002
+    100312: Box003
+    100314: Box004
+    100316: Box005
+    100318: Box007
+    100320: Box011
+    100322: Box012
+    100324: Box013
+    100326: Box014
+    100328: Box015
+    100330: Box016
+    100332: Box017
+    100334: Box018
+    100336: Box019
+    100338: Chair-00
+    100340: Chair-01
+    100342: Chair-02
+    100344: Chair-03
+    100346: Chair-04
+    100348: Chair-05
+    100350: Chairs
+    100352: //RootNode
+    100354: ClassRoom
+    100356: Classroom
+    100358: Computer
+    100360: Cylinder001
+    100362: Cylinder004
+    100364: Cylinder005
+    100366: Cylinder006
+    100368: Cylinder007
+    100370: Cylinder008
+    100372: Cylinder009
+    100374: Cylinder010
+    100376: Door
+    100378: Door-F
+    100380: Dreamer
+    100382: Dreamer-D
+    100384: Dreamer-D 1
+    100386: Dreamer-D001
+    100388: Eraser
+    100390: Eraser001
+    100392: Eraser002
+    100394: Hose001
+    100396: Hose002
+    100398: Hose003
+    100400: Hose004
+    100402: Hose005
+    100404: Hose006
+    100406: Light
+    100408: P
+    100410: P-Case
+    100412: P.Target
+    100414: P1
+    100416: P2
+    100418: P3
+    100420: P4
+    100422: Pencil
+    100424: Pencil001
+    100426: Pencil002
+    100428: Pencil003
+    100430: Pencil004
+    100432: Pencil005
+    100434: Plane001
+    100436: Projector
+    100438: Roof
+    100440: T-Chalk
+    100442: T-Chalk001
+    100444: T-Eraser
+    100446: T_Table
+    100448: Table-00
+    100450: Table-01
+    100452: Table-02
+    100454: Table-03
+    100456: Table-04
+    100458: Table-05
+    100460: Tables
+    100462: Windows
+    100464: "\u5BF9\u8C61015"
+    100466: "\u5BF9\u8C61016"
+    100468: "\u5BF9\u8C61017"
+    400000: Bip001 Footsteps
+    400002: Bip001 Head
+    400004: Bip001 HeadNub
+    400006: Bip001 L Calf
+    400008: Bip001 L Clavicle
+    400010: Bip001 L Finger0
+    400012: Bip001 L Finger0Nub
+    400014: Bip001 L Foot
+    400016: Bip001 L Forearm
+    400018: Bip001 L Hand
+    400020: Bip001 L Thigh
+    400022: Bip001 L Toe0
+    400024: Bip001 L Toe01
+    400026: Bip001 L Toe02
+    400028: Bip001 L Toe0Nub
+    400030: Bip001 L UpperArm
+    400032: Bip001 Neck
+    400034: Bip001 Pelvis
+    400036: Bip001 R Calf
+    400038: Bip001 R Clavicle
+    400040: Bip001 R Finger0
+    400042: Bip001 R Finger0Nub
+    400044: Bip001 R Foot
+    400046: Bip001 R Forearm
+    400048: Bip001 R Hand
+    400050: Bip001 R Thigh
+    400052: Bip001 R Toe0
+    400054: Bip001 R Toe01
+    400056: Bip001 R Toe02
+    400058: Bip001 R Toe0Nub
+    400060: Bip001 R UpperArm
+    400062: Bip001 Spine
+    400064: Bip001 Spine1
+    400066: Bip001 Spine2
+    400068: Bip001 Spine3
+    400070: Bip002 Footsteps
+    400072: Bip002 Head
+    400074: Bip002 HeadNub
+    400076: Bip002 L Calf
+    400078: Bip002 L Clavicle
+    400080: Bip002 L Finger0
+    400082: Bip002 L Finger0Nub
+    400084: Bip002 L Foot
+    400086: Bip002 L Forearm
+    400088: Bip002 L Hand
+    400090: Bip002 L Thigh
+    400092: Bip002 L Toe0
+    400094: Bip002 L Toe01
+    400096: Bip002 L Toe02
+    400098: Bip002 L Toe0Nub
+    400100: Bip002 L UpperArm
+    400102: Bip002 Neck
+    400104: Bip002 Pelvis
+    400106: Bip002 R Calf
+    400108: Bip002 R Clavicle
+    400110: Bip002 R Finger0
+    400112: Bip002 R Finger0Nub
+    400114: Bip002 R Foot
+    400116: Bip002 R Forearm
+    400118: Bip002 R Hand
+    400120: Bip002 R Thigh
+    400122: Bip002 R Toe0
+    400124: Bip002 R Toe01
+    400126: Bip002 R Toe02
+    400128: Bip002 R Toe0Nub
+    400130: Bip002 R UpperArm
+    400132: Bip002 Spine
+    400134: Bip002 Spine1
+    400136: Bip002 Spine2
+    400138: Bip002 Spine3
+    400140: Bip003 Footsteps
+    400142: Bip003 Head
+    400144: Bip003 HeadNub
+    400146: Bip003 L Calf
+    400148: Bip003 L Clavicle
+    400150: Bip003 L Finger0
+    400152: Bip003 L Finger0Nub
+    400154: Bip003 L Foot
+    400156: Bip003 L Forearm
+    400158: Bip003 L Hand
+    400160: Bip003 L Thigh
+    400162: Bip003 L Toe0
+    400164: Bip003 L Toe01
+    400166: Bip003 L Toe02
+    400168: Bip003 L Toe0Nub
+    400170: Bip003 L UpperArm
+    400172: Bip003 Neck
+    400174: Bip003 Pelvis
+    400176: Bip003 R Calf
+    400178: Bip003 R Clavicle
+    400180: Bip003 R Finger0
+    400182: Bip003 R Finger0Nub
+    400184: Bip003 R Foot
+    400186: Bip003 R Forearm
+    400188: Bip003 R Hand
+    400190: Bip003 R Thigh
+    400192: Bip003 R Toe0
+    400194: Bip003 R Toe01
+    400196: Bip003 R Toe02
+    400198: Bip003 R Toe0Nub
+    400200: Bip003 R UpperArm
+    400202: Bip003 Spine
+    400204: Bip003 Spine1
+    400206: Bip003 Spine2
+    400208: Bip003 Spine3
+    400210: Bip004 Footsteps
+    400212: Bip004 Head
+    400214: Bip004 HeadNub
+    400216: Bip004 L Calf
+    400218: Bip004 L Clavicle
+    400220: Bip004 L Finger0
+    400222: Bip004 L Finger0Nub
+    400224: Bip004 L Foot
+    400226: Bip004 L Forearm
+    400228: Bip004 L Hand
+    400230: Bip004 L Thigh
+    400232: Bip004 L Toe0
+    400234: Bip004 L Toe01
+    400236: Bip004 L Toe02
+    400238: Bip004 L Toe0Nub
+    400240: Bip004 L UpperArm
+    400242: Bip004 Neck
+    400244: Bip004 Pelvis
+    400246: Bip004 R Calf
+    400248: Bip004 R Clavicle
+    400250: Bip004 R Finger0
+    400252: Bip004 R Finger0Nub
+    400254: Bip004 R Foot
+    400256: Bip004 R Forearm
+    400258: Bip004 R Hand
+    400260: Bip004 R Thigh
+    400262: Bip004 R Toe0
+    400264: Bip004 R Toe01
+    400266: Bip004 R Toe02
+    400268: Bip004 R Toe0Nub
+    400270: Bip004 R UpperArm
+    400272: Bip004 Spine
+    400274: Bip004 Spine1
+    400276: Bip004 Spine2
+    400278: Bip004 Spine3
+    400280: Blackboard
+    400282: Book-Close
+    400284: Book-Close001
+    400286: Book-Close002
+    400288: Book-Close003
+    400290: Book-Close004
+    400292: Book-Close005
+    400294: Book-Close006
+    400296: Book-Close007
+    400298: Book-Close008
+    400300: Book-Close009
+    400302: Book-Open
+    400304: Book-Open001
+    400306: Book-Open002
+    400308: Box001
+    400310: Box002
+    400312: Box003
+    400314: Box004
+    400316: Box005
+    400318: Box007
+    400320: Box011
+    400322: Box012
+    400324: Box013
+    400326: Box014
+    400328: Box015
+    400330: Box016
+    400332: Box017
+    400334: Box018
+    400336: Box019
+    400338: Chair-00
+    400340: Chair-01
+    400342: Chair-02
+    400344: Chair-03
+    400346: Chair-04
+    400348: Chair-05
+    400350: Chairs
+    400352: //RootNode
+    400354: ClassRoom
+    400356: Classroom
+    400358: Computer
+    400360: Cylinder001
+    400362: Cylinder004
+    400364: Cylinder005
+    400366: Cylinder006
+    400368: Cylinder007
+    400370: Cylinder008
+    400372: Cylinder009
+    400374: Cylinder010
+    400376: Door
+    400378: Door-F
+    400380: Dreamer
+    400382: Dreamer-D
+    400384: Dreamer-D 1
+    400386: Dreamer-D001
+    400388: Eraser
+    400390: Eraser001
+    400392: Eraser002
+    400394: Hose001
+    400396: Hose002
+    400398: Hose003
+    400400: Hose004
+    400402: Hose005
+    400404: Hose006
+    400406: Light
+    400408: P
+    400410: P-Case
+    400412: P.Target
+    400414: P1
+    400416: P2
+    400418: P3
+    400420: P4
+    400422: Pencil
+    400424: Pencil001
+    400426: Pencil002
+    400428: Pencil003
+    400430: Pencil004
+    400432: Pencil005
+    400434: Plane001
+    400436: Projector
+    400438: Roof
+    400440: T-Chalk
+    400442: T-Chalk001
+    400444: T-Eraser
+    400446: T_Table
+    400448: Table-00
+    400450: Table-01
+    400452: Table-02
+    400454: Table-03
+    400456: Table-04
+    400458: Table-05
+    400460: Tables
+    400462: Windows
+    400464: "\u5BF9\u8C61015"
+    400466: "\u5BF9\u8C61016"
+    400468: "\u5BF9\u8C61017"
+    2300000: Blackboard
+    2300002: Book-Close
+    2300004: Book-Close001
+    2300006: Book-Close002
+    2300008: Book-Close003
+    2300010: Book-Close004
+    2300012: Book-Close005
+    2300014: Book-Close006
+    2300016: Book-Close007
+    2300018: Book-Close008
+    2300020: Book-Close009
+    2300022: Book-Open
+    2300024: Book-Open001
+    2300026: Book-Open002
+    2300028: Box001
+    2300030: Box002
+    2300032: Box003
+    2300034: Box004
+    2300036: Box005
+    2300038: Box007
+    2300040: Box011
+    2300042: Box012
+    2300044: Box013
+    2300046: Box014
+    2300048: Box015
+    2300050: Box016
+    2300052: Box017
+    2300054: Box018
+    2300056: Box019
+    2300058: Chair-00
+    2300060: Chair-01
+    2300062: Chair-02
+    2300064: Chair-03
+    2300066: Chair-04
+    2300068: Chair-05
+    2300070: Classroom
+    2300072: Cylinder001
+    2300074: Cylinder004
+    2300076: Cylinder005
+    2300078: Cylinder006
+    2300080: Cylinder007
+    2300082: Cylinder008
+    2300084: Cylinder009
+    2300086: Cylinder010
+    2300088: Door
+    2300090: Door-F
+    2300092: Dreamer-D 1
+    2300094: Dreamer-D001
+    2300096: Eraser
+    2300098: Eraser001
+    2300100: Eraser002
+    2300102: Hose001
+    2300104: Hose002
+    2300106: Hose003
+    2300108: Hose004
+    2300110: Hose005
+    2300112: Hose006
+    2300114: P-Case
+    2300116: Pencil
+    2300118: Pencil001
+    2300120: Pencil002
+    2300122: Pencil003
+    2300124: Pencil004
+    2300126: Pencil005
+    2300128: Plane001
+    2300130: Projector
+    2300132: Roof
+    2300134: T-Chalk
+    2300136: T-Chalk001
+    2300138: T-Eraser
+    2300140: T_Table
+    2300142: Table-00
+    2300144: Table-01
+    2300146: Table-02
+    2300148: Table-03
+    2300150: Table-04
+    2300152: Table-05
+    2300154: Windows
+    2300156: "\u5BF9\u8C61015"
+    2300158: "\u5BF9\u8C61016"
+    2300160: "\u5BF9\u8C61017"
+    3300000: Blackboard
+    3300002: Book-Close
+    3300004: Book-Close001
+    3300006: Book-Close002
+    3300008: Book-Close003
+    3300010: Book-Close004
+    3300012: Book-Close005
+    3300014: Book-Close006
+    3300016: Book-Close007
+    3300018: Book-Close008
+    3300020: Book-Close009
+    3300022: Book-Open
+    3300024: Book-Open001
+    3300026: Book-Open002
+    3300028: Box001
+    3300030: Box002
+    3300032: Box003
+    3300034: Box004
+    3300036: Box005
+    3300038: Box007
+    3300040: Box011
+    3300042: Box012
+    3300044: Box013
+    3300046: Box014
+    3300048: Box015
+    3300050: Box016
+    3300052: Box017
+    3300054: Box018
+    3300056: Box019
+    3300058: Chair-00
+    3300060: Chair-01
+    3300062: Chair-02
+    3300064: Chair-03
+    3300066: Chair-04
+    3300068: Chair-05
+    3300070: Classroom
+    3300072: Cylinder001
+    3300074: Cylinder004
+    3300076: Cylinder005
+    3300078: Cylinder006
+    3300080: Cylinder007
+    3300082: Cylinder008
+    3300084: Cylinder009
+    3300086: Cylinder010
+    3300088: Door
+    3300090: Door-F
+    3300092: Dreamer-D 1
+    3300094: Dreamer-D001
+    3300096: Eraser
+    3300098: Eraser001
+    3300100: Eraser002
+    3300102: Hose001
+    3300104: Hose002
+    3300106: Hose003
+    3300108: Hose004
+    3300110: Hose005
+    3300112: Hose006
+    3300114: P-Case
+    3300116: Pencil
+    3300118: Pencil001
+    3300120: Pencil002
+    3300122: Pencil003
+    3300124: Pencil004
+    3300126: Pencil005
+    3300128: Plane001
+    3300130: Projector
+    3300132: Roof
+    3300134: T-Chalk
+    3300136: T-Chalk001
+    3300138: T-Eraser
+    3300140: T_Table
+    3300142: Table-00
+    3300144: Table-01
+    3300146: Table-02
+    3300148: Table-03
+    3300150: Table-04
+    3300152: Table-05
+    3300154: Windows
+    3300156: "\u5BF9\u8C61015"
+    3300158: "\u5BF9\u8C61016"
+    3300160: "\u5BF9\u8C61017"
+    4300000: Box001
+    4300002: Box002
+    4300004: Box003
+    4300006: Box004
+    4300008: Book-Close
+    4300010: T-Chalk
+    4300012: T-Eraser
+    4300014: Book-Close001
+    4300016: Book-Open
+    4300018: Pencil
+    4300020: Eraser
+    4300022: Box011
+    4300024: Box012
+    4300026: P-Case
+    4300028: Table-00
+    4300030: Table-01
+    4300032: Table-02
+    4300034: Table-03
+    4300036: Table-04
+    4300038: Table-05
+    4300040: Chair-05
+    4300042: Chair-04
+    4300044: Chair-03
+    4300046: Chair-02
+    4300048: Chair-01
+    4300050: Chair-00
+    4300052: Windows
+    4300054: Classroom
+    4300056: Roof
+    4300058: T_Table
+    4300060: Projector
+    4300062: Blackboard
+    4300064: Door-F
+    4300066: Door
+    4300068: "\u5BF9\u8C61015"
+    4300070: Box005
+    4300072: Cylinder001
+    4300074: Hose001
+    4300076: Hose002
+    4300078: Hose003
+    4300080: Hose004
+    4300082: Box007
+    4300084: Hose005
+    4300086: Hose006
+    4300088: Cylinder004
+    4300090: Cylinder005
+    4300092: Cylinder006
+    4300094: Cylinder007
+    4300096: Cylinder008
+    4300098: Cylinder009
+    4300100: Book-Close002
+    4300102: Book-Close003
+    4300104: Book-Close004
+    4300106: Book-Close005
+    4300108: Book-Open001
+    4300110: Book-Close006
+    4300112: Box013
+    4300114: Box014
+    4300116: Book-Open002
+    4300118: Pencil001
+    4300120: Pencil002
+    4300122: Box015
+    4300124: Box016
+    4300126: Pencil003
+    4300128: Pencil004
+    4300130: Box017
+    4300132: Box018
+    4300134: Book-Close007
+    4300136: Book-Close008
+    4300138: Book-Close009
+    4300140: Pencil005
+    4300142: Eraser001
+    4300144: Eraser002
+    4300146: T-Chalk001
+    4300148: Box019
+    4300150: Plane001
+    4300152: Cylinder010
+    4300154: Dreamer-D
+    4300156: Dreamer-D001
+    4300158: "\u5BF9\u8C61017"
+    4300160: "\u5BF9\u8C61016"
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Light
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
