@@ -18,6 +18,11 @@ public class Health : MonoBehaviour {
     public GameObject Win;
     public GameObject Lose;
 
+    public void ResetHP()
+    {
+        currentTeacherHP = 100;
+        currentPlayerHP = 100;
+    }
     void UpdateHP()
     {
         teacherHP.fillAmount = currentTeacherHP / teacherHP_Max;
@@ -27,9 +32,11 @@ public class Health : MonoBehaviour {
 
     public void AttackTeacher()
     {
-        currentTeacherHP -= 20;
+        currentTeacherHP -= 200;
         if (currentTeacherHP <= 0)
-            Win.GetComponent<WinLose>().WinGame("boss");
+            Win.GetComponent<WinLose>().SwitchGame(1);
+            //Win.GetComponent<WinLose>().WinGame("boss");
+  
     }
 
     public void GotHit()
@@ -42,8 +49,8 @@ public class Health : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
-	}
+        
+    }
 	
 	// Update is called once per frame
 	void Update () {
