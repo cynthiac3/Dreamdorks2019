@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 643285f7d40420943a80d69ceb81e711
-timeCreated: 1547298011
+guid: b5fcc928d74409f4cb4a5d6b30c31151
+timeCreated: 1547361117
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -89,7 +89,7 @@ ModelImporter:
     400078: mixamorig:Spine1
     400080: mixamorig:Spine2
     400082: //RootNode
-    7400000: Victory Idle
+    7400000: Standing Clap_offset
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -116,10 +116,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Victory Idle
-      takeName: mixamo.com
-      firstFrame: 1
-      lastFrame: 50
+      name: Standing Clap_offset
+      takeName: Take 001
+      firstFrame: 15
+      lastFrame: 62
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
