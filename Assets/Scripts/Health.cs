@@ -15,6 +15,9 @@ public class Health : MonoBehaviour {
     public float currentPlayerHP;
     public float playerHP_Max = 100;
 
+    public GameObject Win;
+    public GameObject Lose;
+
     void UpdateHP()
     {
         teacherHP.fillAmount = currentTeacherHP / teacherHP_Max;
@@ -24,14 +27,17 @@ public class Health : MonoBehaviour {
 
     public void AttackTeacher()
     {
-        Debug.Log("You attacked the teacher!");
         currentTeacherHP -= 20;
+        if (currentTeacherHP <= 0)
+            Win.GetComponent<WinLose>().WinGame("boss");
     }
 
     public void GotHit()
     {
-        Debug.Log("You got hit!");
         currentPlayerHP -= 10;
+        if (currentPlayerHP <= 0)
+            Win.GetComponent<WinLose>().LoseGame();
+
     }
 
     // Use this for initialization
