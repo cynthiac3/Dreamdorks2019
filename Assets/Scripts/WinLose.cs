@@ -19,6 +19,8 @@ public class WinLose : MonoBehaviour {
 
     public GameObject menu;
 
+    public GameObject bubble;
+
     public bool isMazing = false;
 
     public void EndWin()
@@ -57,11 +59,12 @@ public class WinLose : MonoBehaviour {
         else if(mode == 0) // switching to mode 0 -> BossFight
         {
             mazeGame++;
+            bubble.SetActive(true);
+            //WAIT? and turn off the maze game 
             gameMode.SetTrigger("BossTrigger");
             canvas.SetActive(true);
             isMazing = false;
             canvas.GetComponent<Health>().ResetHP();
-            canvas.GetComponent<RandomQuestions>().bossFight++;
         }
 
         if (mazeGame == 1)

@@ -17,24 +17,17 @@ public class Menu : MonoBehaviour {
     public GameObject GameOverScreen;
     public GameObject WinScreen;
 
-    /*
-    IEnumerator WaitTime(AnimationClip intro)
-    {
-        yield return new WaitForSeconds(intro.length);
 
+    public AudioSource buttonPress;
+
+    public void buttonSound()
+    {
+        buttonPress.Play();
     }
-    */
 
     public void ReturnToMain()
     {
-        Debug.Log("RETURN");
-        intro.SetActive(true);
-        intro.GetComponent<Animation>().enabled = true;
-        intro.GetComponent<Animation>().Play();
-        menu.GetComponent<XboxController>().enabled = true;
-        cam.GetComponent<CameraFollow>().enabled = false;
-        menu.SetActive(true);
-        canvas.SetActive(false);
+        Application.LoadLevel(Application.loadedLevel);
     }
     
 
@@ -82,7 +75,14 @@ public class Menu : MonoBehaviour {
 	void Start () {
         GameOverScreen.SetActive(false);
         WinScreen.SetActive(false);
-        ReturnToMain();
+        Debug.Log("RETURN");
+        intro.SetActive(true);
+        intro.GetComponent<Animation>().enabled = true;
+        intro.GetComponent<Animation>().Play();
+        menu.GetComponent<XboxController>().enabled = true;
+        cam.GetComponent<CameraFollow>().enabled = false;
+        menu.SetActive(true);
+        canvas.SetActive(false);
     }
 	
 	// Update is called once per frame
