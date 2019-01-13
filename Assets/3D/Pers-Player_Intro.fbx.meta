@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: a08bb367803f8a54b8b62a270be6f17e
-timeCreated: 1547350440
-licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Bip001 Head
     100002: Bip001 HeadNub
@@ -233,10 +231,32 @@ ModelImporter:
     9500000: //RootNode
     11100000: //RootNode
     13700000: Player 1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #211-1'
+    second: {fileID: 2100000, guid: feb0ced2f1132a34ca0a637121573878, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #211-2'
+    second: {fileID: 2100000, guid: 39d74a2ed06d77541a6681f35ad8b606, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #211-3'
+    second: {fileID: 2100000, guid: a7f2e0418a592aa48b9657a91a3ffa99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #58-4'
+    second: {fileID: 2100000, guid: 7f20a9ca15730134c8f49df485305da2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -249,6 +269,8 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -261,7 +283,7 @@ ModelImporter:
       name: Act_Intro
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 300
+      lastFrame: 400
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
@@ -301,11 +323,15 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -325,7 +351,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
