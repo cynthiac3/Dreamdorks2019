@@ -32,7 +32,7 @@ public class Health : MonoBehaviour {
 
     public void AttackTeacher()
     {
-        currentTeacherHP -= 200;
+        currentTeacherHP -= 10;
         if (currentTeacherHP <= 0)
             Win.GetComponent<WinLose>().SwitchGame(1);
             //Win.GetComponent<WinLose>().WinGame("boss");
