@@ -12,6 +12,10 @@ public class Timer : MonoBehaviour
     public GameObject canvas;
     public GameObject Win;
 
+    public bool isTimeOut;
+
+    public GameObject right, wrong;
+
     public void ResetTimer()
     {
         time = 10;
@@ -22,6 +26,7 @@ public class Timer : MonoBehaviour
     {
         if (timeRemaining <= 0)
         {
+            isTimeOut = true;
             //Debug.Log("TIME OUT");
             canvas.GetComponent<RandomQuestions>().getAnswer(canvas.GetComponent<RandomQuestions>().answer, " ");
             if (canvas.GetComponent<Health>().currentPlayerHP > 0)

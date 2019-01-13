@@ -17,6 +17,10 @@ public class RandomQuestions : MonoBehaviour
     public GameObject text3D;
     public GameObject gm;
 
+    public GameObject right, wrong;
+    //public AnimationClip righClipOut, wrongClipOut;
+
+
     public int bossFight = 0;
     public int numQuestions = 10;
 
@@ -26,6 +30,19 @@ public class RandomQuestions : MonoBehaviour
     public string[][] FrenchQuestions = new string[10][];
 
     public string answer;
+
+
+    
+
+    private IEnumerator WaitForAnimation(Animation animation)
+    {
+        while (animation.isPlaying)
+            yield return null;
+
+        // at this point, the animation has completed
+        // so at this point, do whatever you wish...
+        Debug.Log("Animation completed");
+    }
 
     public void getQuestion(int numBossFight)
     {
@@ -73,10 +90,22 @@ public class RandomQuestions : MonoBehaviour
 
         if (button == answer)
         {
+            wrong.SetActive(false);
+            right.SetActive(true);
+            right.GetComponent<Animator>().SetTrigger("FadeTrigger");
+           // if (right.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !right.GetComponent<Animator>().IsInTransition(0))
+                //right.SetActive(false);
             return true;
         }
         else
+        {
+            right.SetActive(false);
+            wrong.SetActive(true);
+            wrong.GetComponent<Animator>().SetTrigger("FadeTrigger");
+            //if (wrong.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !wrong.GetComponent<Animator>().IsInTransition(0))
+                //wrong.SetActive(false);
             return false;
+        }
     }
 
     
@@ -144,7 +173,10 @@ public class RandomQuestions : MonoBehaviour
 
     void Update()
     {
-
+        if (right.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !right.GetComponent<Animator>().IsInTransition(0))
+            right.SetActive(false);
+        if (wrong.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !wrong.GetComponent<Animator>().IsInTransition(0))
+            wrong.SetActive(false);
     }
 }
 
