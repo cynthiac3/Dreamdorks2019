@@ -752,7 +752,7 @@ GameObject:
   - component: {fileID: 4935882603429090}
   - component: {fileID: 95279276996891590}
   m_Layer: 0
-  m_Name: ClassRoom-V3
+  m_Name: Classroom_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
