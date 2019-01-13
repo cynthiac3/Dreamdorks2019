@@ -7,20 +7,49 @@ public class Menu : MonoBehaviour {
 
     public GameObject menu;
     public GameObject canvas;
-    public Animator animator;
+    //public Animator animator;
     public GameObject cam;
+
+    public GameObject intro;
+
+    public GameObject Win;
+
+    /*
+    IEnumerator WaitTime(AnimationClip intro)
+    {
+        yield return new WaitForSeconds(intro.length);
+
+    }
+    */
+
 
     public void StartGame()
     {
-        animator.SetBool("isZooming", false);
+        menu.GetComponent<XboxController>().enabled = false;
+        cam.SetActive(true);
         cam.GetComponent<CameraFollow>().enabled = true;
         menu.SetActive(false);
-        canvas.SetActive(true);
-        menu.GetComponent<XboxController>().enabled = false; ;
-        //animation commence
+        //canvas.SetActive(true);
+        intro.GetComponent<Animation>().enabled = false;
+        intro.SetActive(false);
+
+        Win.GetComponent<WinLose>().SwitchGame(1);
+        //cam.GetComponent<Animator>().SetTrigger("MazeTrigger"); //Gamemode maze first
+
+        //WaitTime(introClip);
 
         //jeu de maze commmence
     }
+    /*
+    void AnimeOver()
+    {
+            Debug.Log("anime done");
+            //animator.SetBool("isZooming", false);
+            cam.GetComponent<CameraFollow>().enabled = true;
+            canvas.SetActive(true);
+            menu.GetComponent<XboxController>().enabled = false;
+    }
+    */
 
     public void QuitGame()
     {
@@ -36,16 +65,20 @@ public class Menu : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        intro.GetComponent<Animation>().enabled = true;
+        intro.GetComponent<Animation>().Play();
+
         menu.GetComponent<XboxController>().enabled = true;
         cam.GetComponent<CameraFollow>().enabled = false;
         menu.SetActive(true);
         canvas.SetActive(false);
-        animator.SetBool("isZooming", true);
+        //animator.SetBool("isZooming", true);
 
     }
 	
 	// Update is called once per frame
 	void Update () {
 		
+
 	}
 }

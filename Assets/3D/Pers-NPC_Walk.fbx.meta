@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 95fd012f066508b4db99d440146f2ca0
+timeCreated: 1547389520
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: NPC-Walk
+    100002: NPC-Walk 1
+    100004: //RootNode
+    100006: Player001 Head
+    100008: Player001 HeadNub
+    100010: Player001 L Calf
+    100012: Player001 L Clavicle
+    100014: Player001 L Finger0
+    100016: Player001 L Finger01
+    100018: Player001 L Finger02
+    100020: Player001 L Finger0Nub
+    100022: Player001 L Finger1
+    100024: Player001 L Finger11
+    100026: Player001 L Finger12
+    100028: Player001 L Finger1Nub
+    100030: Player001 L Finger2
+    100032: Player001 L Finger21
+    100034: Player001 L Finger22
+    100036: Player001 L Finger2Nub
+    100038: Player001 L Finger3
+    100040: Player001 L Finger31
+    100042: Player001 L Finger32
+    100044: Player001 L Finger3Nub
+    100046: Player001 L Finger4
+    100048: Player001 L Finger41
+    100050: Player001 L Finger42
+    100052: Player001 L Finger4Nub
+    100054: Player001 L Foot
+    100056: Player001 L Forearm
+    100058: Player001 L Hand
+    100060: Player001 L Thigh
+    100062: Player001 L Toe0
+    100064: Player001 L Toe01
+    100066: Player001 L Toe02
+    100068: Player001 L Toe0Nub
+    100070: Player001 L Toe1
+    100072: Player001 L Toe11
+    100074: Player001 L Toe12
+    100076: Player001 L Toe1Nub
+    100078: Player001 L Toe2
+    100080: Player001 L Toe21
+    100082: Player001 L Toe22
+    100084: Player001 L Toe2Nub
+    100086: Player001 L Toe3
+    100088: Player001 L Toe31
+    100090: Player001 L Toe32
+    100092: Player001 L Toe3Nub
+    100094: Player001 L Toe4
+    100096: Player001 L Toe41
+    100098: Player001 L Toe42
+    100100: Player001 L Toe4Nub
+    100102: Player001 L UpperArm
+    100104: Player001 Neck
+    100106: Player001 Pelvis
+    100108: Player001 R Calf
+    100110: Player001 R Clavicle
+    100112: Player001 R Finger0
+    100114: Player001 R Finger01
+    100116: Player001 R Finger02
+    100118: Player001 R Finger0Nub
+    100120: Player001 R Finger1
+    100122: Player001 R Finger11
+    100124: Player001 R Finger12
+    100126: Player001 R Finger1Nub
+    100128: Player001 R Finger2
+    100130: Player001 R Finger21
+    100132: Player001 R Finger22
+    100134: Player001 R Finger2Nub
+    100136: Player001 R Finger3
+    100138: Player001 R Finger31
+    100140: Player001 R Finger32
+    100142: Player001 R Finger3Nub
+    100144: Player001 R Finger4
+    100146: Player001 R Finger41
+    100148: Player001 R Finger42
+    100150: Player001 R Finger4Nub
+    100152: Player001 R Foot
+    100154: Player001 R Forearm
+    100156: Player001 R Hand
+    100158: Player001 R Thigh
+    100160: Player001 R Toe0
+    100162: Player001 R Toe01
+    100164: Player001 R Toe02
+    100166: Player001 R Toe0Nub
+    100168: Player001 R Toe1
+    100170: Player001 R Toe11
+    100172: Player001 R Toe12
+    100174: Player001 R Toe1Nub
+    100176: Player001 R Toe2
+    100178: Player001 R Toe21
+    100180: Player001 R Toe22
+    100182: Player001 R Toe2Nub
+    100184: Player001 R Toe3
+    100186: Player001 R Toe31
+    100188: Player001 R Toe32
+    100190: Player001 R Toe3Nub
+    100192: Player001 R Toe4
+    100194: Player001 R Toe41
+    100196: Player001 R Toe42
+    100198: Player001 R Toe4Nub
+    100200: Player001 R UpperArm
+    100202: Player001 Spine
+    100204: Player001 Spine1
+    100206: Player001 Spine2
+    100208: Player001 Spine3
+    400000: NPC-Walk
+    400002: NPC-Walk 1
+    400004: //RootNode
+    400006: Player001 Head
+    400008: Player001 HeadNub
+    400010: Player001 L Calf
+    400012: Player001 L Clavicle
+    400014: Player001 L Finger0
+    400016: Player001 L Finger01
+    400018: Player001 L Finger02
+    400020: Player001 L Finger0Nub
+    400022: Player001 L Finger1
+    400024: Player001 L Finger11
+    400026: Player001 L Finger12
+    400028: Player001 L Finger1Nub
+    400030: Player001 L Finger2
+    400032: Player001 L Finger21
+    400034: Player001 L Finger22
+    400036: Player001 L Finger2Nub
+    400038: Player001 L Finger3
+    400040: Player001 L Finger31
+    400042: Player001 L Finger32
+    400044: Player001 L Finger3Nub
+    400046: Player001 L Finger4
+    400048: Player001 L Finger41
+    400050: Player001 L Finger42
+    400052: Player001 L Finger4Nub
+    400054: Player001 L Foot
+    400056: Player001 L Forearm
+    400058: Player001 L Hand
+    400060: Player001 L Thigh
+    400062: Player001 L Toe0
+    400064: Player001 L Toe01
+    400066: Player001 L Toe02
+    400068: Player001 L Toe0Nub
+    400070: Player001 L Toe1
+    400072: Player001 L Toe11
+    400074: Player001 L Toe12
+    400076: Player001 L Toe1Nub
+    400078: Player001 L Toe2
+    400080: Player001 L Toe21
+    400082: Player001 L Toe22
+    400084: Player001 L Toe2Nub
+    400086: Player001 L Toe3
+    400088: Player001 L Toe31
+    400090: Player001 L Toe32
+    400092: Player001 L Toe3Nub
+    400094: Player001 L Toe4
+    400096: Player001 L Toe41
+    400098: Player001 L Toe42
+    400100: Player001 L Toe4Nub
+    400102: Player001 L UpperArm
+    400104: Player001 Neck
+    400106: Player001 Pelvis
+    400108: Player001 R Calf
+    400110: Player001 R Clavicle
+    400112: Player001 R Finger0
+    400114: Player001 R Finger01
+    400116: Player001 R Finger02
+    400118: Player001 R Finger0Nub
+    400120: Player001 R Finger1
+    400122: Player001 R Finger11
+    400124: Player001 R Finger12
+    400126: Player001 R Finger1Nub
+    400128: Player001 R Finger2
+    400130: Player001 R Finger21
+    400132: Player001 R Finger22
+    400134: Player001 R Finger2Nub
+    400136: Player001 R Finger3
+    400138: Player001 R Finger31
+    400140: Player001 R Finger32
+    400142: Player001 R Finger3Nub
+    400144: Player001 R Finger4
+    400146: Player001 R Finger41
+    400148: Player001 R Finger42
+    400150: Player001 R Finger4Nub
+    400152: Player001 R Foot
+    400154: Player001 R Forearm
+    400156: Player001 R Hand
+    400158: Player001 R Thigh
+    400160: Player001 R Toe0
+    400162: Player001 R Toe01
+    400164: Player001 R Toe02
+    400166: Player001 R Toe0Nub
+    400168: Player001 R Toe1
+    400170: Player001 R Toe11
+    400172: Player001 R Toe12
+    400174: Player001 R Toe1Nub
+    400176: Player001 R Toe2
+    400178: Player001 R Toe21
+    400180: Player001 R Toe22
+    400182: Player001 R Toe2Nub
+    400184: Player001 R Toe3
+    400186: Player001 R Toe31
+    400188: Player001 R Toe32
+    400190: Player001 R Toe3Nub
+    400192: Player001 R Toe4
+    400194: Player001 R Toe41
+    400196: Player001 R Toe42
+    400198: Player001 R Toe4Nub
+    400200: Player001 R UpperArm
+    400202: Player001 Spine
+    400204: Player001 Spine1
+    400206: Player001 Spine2
+    400208: Player001 Spine3
+    4300000: NPC-Walk
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: NPC-Walk 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 300
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

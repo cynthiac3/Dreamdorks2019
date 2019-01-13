@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: 55ff5eceb77d0d545aea48f4fd7977f6
+timeCreated: 1547389519
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Pencil006
+    100002: //RootNode
+    100004: PLayer-FPS
+    100006: Player-FPS
+    100008: Player003 Head
+    100010: Player003 HeadNub
+    100012: Player003 L Calf
+    100014: Player003 L Clavicle
+    100016: Player003 L Finger0
+    100018: Player003 L Finger01
+    100020: Player003 L Finger02
+    100022: Player003 L Finger0Nub
+    100024: Player003 L Finger1
+    100026: Player003 L Finger11
+    100028: Player003 L Finger12
+    100030: Player003 L Finger1Nub
+    100032: Player003 L Finger2
+    100034: Player003 L Finger21
+    100036: Player003 L Finger22
+    100038: Player003 L Finger2Nub
+    100040: Player003 L Finger3
+    100042: Player003 L Finger31
+    100044: Player003 L Finger32
+    100046: Player003 L Finger3Nub
+    100048: Player003 L Finger4
+    100050: Player003 L Finger41
+    100052: Player003 L Finger42
+    100054: Player003 L Finger4Nub
+    100056: Player003 L Foot
+    100058: Player003 L Forearm
+    100060: Player003 L Hand
+    100062: Player003 L Thigh
+    100064: Player003 L Toe0
+    100066: Player003 L Toe01
+    100068: Player003 L Toe02
+    100070: Player003 L Toe0Nub
+    100072: Player003 L Toe1
+    100074: Player003 L Toe11
+    100076: Player003 L Toe12
+    100078: Player003 L Toe1Nub
+    100080: Player003 L Toe2
+    100082: Player003 L Toe21
+    100084: Player003 L Toe22
+    100086: Player003 L Toe2Nub
+    100088: Player003 L Toe3
+    100090: Player003 L Toe31
+    100092: Player003 L Toe32
+    100094: Player003 L Toe3Nub
+    100096: Player003 L Toe4
+    100098: Player003 L Toe41
+    100100: Player003 L Toe42
+    100102: Player003 L Toe4Nub
+    100104: Player003 L UpperArm
+    100106: Player003 Neck
+    100108: Player003 Pelvis
+    100110: Player003 R Calf
+    100112: Player003 R Clavicle
+    100114: Player003 R Finger0
+    100116: Player003 R Finger01
+    100118: Player003 R Finger02
+    100120: Player003 R Finger0Nub
+    100122: Player003 R Finger1
+    100124: Player003 R Finger11
+    100126: Player003 R Finger12
+    100128: Player003 R Finger1Nub
+    100130: Player003 R Finger2
+    100132: Player003 R Finger21
+    100134: Player003 R Finger22
+    100136: Player003 R Finger2Nub
+    100138: Player003 R Finger3
+    100140: Player003 R Finger31
+    100142: Player003 R Finger32
+    100144: Player003 R Finger3Nub
+    100146: Player003 R Finger4
+    100148: Player003 R Finger41
+    100150: Player003 R Finger42
+    100152: Player003 R Finger4Nub
+    100154: Player003 R Foot
+    100156: Player003 R Forearm
+    100158: Player003 R Hand
+    100160: Player003 R Thigh
+    100162: Player003 R Toe0
+    100164: Player003 R Toe01
+    100166: Player003 R Toe02
+    100168: Player003 R Toe0Nub
+    100170: Player003 R Toe1
+    100172: Player003 R Toe11
+    100174: Player003 R Toe12
+    100176: Player003 R Toe1Nub
+    100178: Player003 R Toe2
+    100180: Player003 R Toe21
+    100182: Player003 R Toe22
+    100184: Player003 R Toe2Nub
+    100186: Player003 R Toe3
+    100188: Player003 R Toe31
+    100190: Player003 R Toe32
+    100192: Player003 R Toe3Nub
+    100194: Player003 R Toe4
+    100196: Player003 R Toe41
+    100198: Player003 R Toe42
+    100200: Player003 R Toe4Nub
+    100202: Player003 R UpperArm
+    100204: Player003 Spine
+    100206: Player003 Spine1
+    100208: Player003 Spine2
+    100210: Player003 Spine3
+    400000: Pencil006
+    400002: //RootNode
+    400004: PLayer-FPS
+    400006: Player-FPS
+    400008: Player003 Head
+    400010: Player003 HeadNub
+    400012: Player003 L Calf
+    400014: Player003 L Clavicle
+    400016: Player003 L Finger0
+    400018: Player003 L Finger01
+    400020: Player003 L Finger02
+    400022: Player003 L Finger0Nub
+    400024: Player003 L Finger1
+    400026: Player003 L Finger11
+    400028: Player003 L Finger12
+    400030: Player003 L Finger1Nub
+    400032: Player003 L Finger2
+    400034: Player003 L Finger21
+    400036: Player003 L Finger22
+    400038: Player003 L Finger2Nub
+    400040: Player003 L Finger3
+    400042: Player003 L Finger31
+    400044: Player003 L Finger32
+    400046: Player003 L Finger3Nub
+    400048: Player003 L Finger4
+    400050: Player003 L Finger41
+    400052: Player003 L Finger42
+    400054: Player003 L Finger4Nub
+    400056: Player003 L Foot
+    400058: Player003 L Forearm
+    400060: Player003 L Hand
+    400062: Player003 L Thigh
+    400064: Player003 L Toe0
+    400066: Player003 L Toe01
+    400068: Player003 L Toe02
+    400070: Player003 L Toe0Nub
+    400072: Player003 L Toe1
+    400074: Player003 L Toe11
+    400076: Player003 L Toe12
+    400078: Player003 L Toe1Nub
+    400080: Player003 L Toe2
+    400082: Player003 L Toe21
+    400084: Player003 L Toe22
+    400086: Player003 L Toe2Nub
+    400088: Player003 L Toe3
+    400090: Player003 L Toe31
+    400092: Player003 L Toe32
+    400094: Player003 L Toe3Nub
+    400096: Player003 L Toe4
+    400098: Player003 L Toe41
+    400100: Player003 L Toe42
+    400102: Player003 L Toe4Nub
+    400104: Player003 L UpperArm
+    400106: Player003 Neck
+    400108: Player003 Pelvis
+    400110: Player003 R Calf
+    400112: Player003 R Clavicle
+    400114: Player003 R Finger0
+    400116: Player003 R Finger01
+    400118: Player003 R Finger02
+    400120: Player003 R Finger0Nub
+    400122: Player003 R Finger1
+    400124: Player003 R Finger11
+    400126: Player003 R Finger12
+    400128: Player003 R Finger1Nub
+    400130: Player003 R Finger2
+    400132: Player003 R Finger21
+    400134: Player003 R Finger22
+    400136: Player003 R Finger2Nub
+    400138: Player003 R Finger3
+    400140: Player003 R Finger31
+    400142: Player003 R Finger32
+    400144: Player003 R Finger3Nub
+    400146: Player003 R Finger4
+    400148: Player003 R Finger41
+    400150: Player003 R Finger42
+    400152: Player003 R Finger4Nub
+    400154: Player003 R Foot
+    400156: Player003 R Forearm
+    400158: Player003 R Hand
+    400160: Player003 R Thigh
+    400162: Player003 R Toe0
+    400164: Player003 R Toe01
+    400166: Player003 R Toe02
+    400168: Player003 R Toe0Nub
+    400170: Player003 R Toe1
+    400172: Player003 R Toe11
+    400174: Player003 R Toe12
+    400176: Player003 R Toe1Nub
+    400178: Player003 R Toe2
+    400180: Player003 R Toe21
+    400182: Player003 R Toe22
+    400184: Player003 R Toe2Nub
+    400186: Player003 R Toe3
+    400188: Player003 R Toe31
+    400190: Player003 R Toe32
+    400192: Player003 R Toe3Nub
+    400194: Player003 R Toe4
+    400196: Player003 R Toe41
+    400198: Player003 R Toe42
+    400200: Player003 R Toe4Nub
+    400202: Player003 R UpperArm
+    400204: Player003 Spine
+    400206: Player003 Spine1
+    400208: Player003 Spine2
+    400210: Player003 Spine3
+    2300000: Pencil006
+    3300000: Pencil006
+    4300000: PLayer-FPS
+    4300002: Pencil006
+    7400000: Action_Pose-1
+    7400002: Action_Writting
+    7400004: Action_Pose-2
+    7400006: Trans_ActToGame
+    7400008: Action_Gaming
+    7400010: Trans_GameToAct
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: PLayer-FPS
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Action_Writting
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 260
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Action_Pose-1
+      takeName: Take 001
+      firstFrame: 260
+      lastFrame: 320
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Action_Pose-2
+      takeName: Take 001
+      firstFrame: 320
+      lastFrame: 400
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Trans_ActToGame
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 420
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Action_Gaming
+      takeName: Take 001
+      firstFrame: 420
+      lastFrame: 460
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Trans_GameToAct
+      takeName: Take 001
+      firstFrame: 460
+      lastFrame: 480
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

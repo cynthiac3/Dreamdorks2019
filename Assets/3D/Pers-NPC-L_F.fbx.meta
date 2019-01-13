@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 72903b9be8a19084d815e99c4ccebc36
+timeCreated: 1547389519
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: NPC-Left_Back001 Head
+    100002: NPC-Left_Back001 HeadNub
+    100004: NPC-Left_Back001 L Calf
+    100006: NPC-Left_Back001 L Clavicle
+    100008: NPC-Left_Back001 L Finger0
+    100010: NPC-Left_Back001 L Finger01
+    100012: NPC-Left_Back001 L Finger02
+    100014: NPC-Left_Back001 L Finger0Nub
+    100016: NPC-Left_Back001 L Finger1
+    100018: NPC-Left_Back001 L Finger11
+    100020: NPC-Left_Back001 L Finger12
+    100022: NPC-Left_Back001 L Finger1Nub
+    100024: NPC-Left_Back001 L Finger2
+    100026: NPC-Left_Back001 L Finger21
+    100028: NPC-Left_Back001 L Finger22
+    100030: NPC-Left_Back001 L Finger2Nub
+    100032: NPC-Left_Back001 L Finger3
+    100034: NPC-Left_Back001 L Finger31
+    100036: NPC-Left_Back001 L Finger32
+    100038: NPC-Left_Back001 L Finger3Nub
+    100040: NPC-Left_Back001 L Finger4
+    100042: NPC-Left_Back001 L Finger41
+    100044: NPC-Left_Back001 L Finger42
+    100046: NPC-Left_Back001 L Finger4Nub
+    100048: NPC-Left_Back001 L Foot
+    100050: NPC-Left_Back001 L Forearm
+    100052: NPC-Left_Back001 L Hand
+    100054: NPC-Left_Back001 L Thigh
+    100056: NPC-Left_Back001 L Toe0
+    100058: NPC-Left_Back001 L Toe01
+    100060: NPC-Left_Back001 L Toe02
+    100062: NPC-Left_Back001 L Toe0Nub
+    100064: NPC-Left_Back001 L Toe1
+    100066: NPC-Left_Back001 L Toe11
+    100068: NPC-Left_Back001 L Toe12
+    100070: NPC-Left_Back001 L Toe1Nub
+    100072: NPC-Left_Back001 L Toe2
+    100074: NPC-Left_Back001 L Toe21
+    100076: NPC-Left_Back001 L Toe22
+    100078: NPC-Left_Back001 L Toe2Nub
+    100080: NPC-Left_Back001 L Toe3
+    100082: NPC-Left_Back001 L Toe31
+    100084: NPC-Left_Back001 L Toe32
+    100086: NPC-Left_Back001 L Toe3Nub
+    100088: NPC-Left_Back001 L Toe4
+    100090: NPC-Left_Back001 L Toe41
+    100092: NPC-Left_Back001 L Toe42
+    100094: NPC-Left_Back001 L Toe4Nub
+    100096: NPC-Left_Back001 L UpperArm
+    100098: NPC-Left_Back001 Neck
+    100100: NPC-Left_Back001 Pelvis
+    100102: NPC-Left_Back001 R Calf
+    100104: NPC-Left_Back001 R Clavicle
+    100106: NPC-Left_Back001 R Finger0
+    100108: NPC-Left_Back001 R Finger01
+    100110: NPC-Left_Back001 R Finger02
+    100112: NPC-Left_Back001 R Finger0Nub
+    100114: NPC-Left_Back001 R Finger1
+    100116: NPC-Left_Back001 R Finger11
+    100118: NPC-Left_Back001 R Finger12
+    100120: NPC-Left_Back001 R Finger1Nub
+    100122: NPC-Left_Back001 R Finger2
+    100124: NPC-Left_Back001 R Finger21
+    100126: NPC-Left_Back001 R Finger22
+    100128: NPC-Left_Back001 R Finger2Nub
+    100130: NPC-Left_Back001 R Finger3
+    100132: NPC-Left_Back001 R Finger31
+    100134: NPC-Left_Back001 R Finger32
+    100136: NPC-Left_Back001 R Finger3Nub
+    100138: NPC-Left_Back001 R Finger4
+    100140: NPC-Left_Back001 R Finger41
+    100142: NPC-Left_Back001 R Finger42
+    100144: NPC-Left_Back001 R Finger4Nub
+    100146: NPC-Left_Back001 R Foot
+    100148: NPC-Left_Back001 R Forearm
+    100150: NPC-Left_Back001 R Hand
+    100152: NPC-Left_Back001 R Thigh
+    100154: NPC-Left_Back001 R Toe0
+    100156: NPC-Left_Back001 R Toe01
+    100158: NPC-Left_Back001 R Toe02
+    100160: NPC-Left_Back001 R Toe0Nub
+    100162: NPC-Left_Back001 R Toe1
+    100164: NPC-Left_Back001 R Toe11
+    100166: NPC-Left_Back001 R Toe12
+    100168: NPC-Left_Back001 R Toe1Nub
+    100170: NPC-Left_Back001 R Toe2
+    100172: NPC-Left_Back001 R Toe21
+    100174: NPC-Left_Back001 R Toe22
+    100176: NPC-Left_Back001 R Toe2Nub
+    100178: NPC-Left_Back001 R Toe3
+    100180: NPC-Left_Back001 R Toe31
+    100182: NPC-Left_Back001 R Toe32
+    100184: NPC-Left_Back001 R Toe3Nub
+    100186: NPC-Left_Back001 R Toe4
+    100188: NPC-Left_Back001 R Toe41
+    100190: NPC-Left_Back001 R Toe42
+    100192: NPC-Left_Back001 R Toe4Nub
+    100194: NPC-Left_Back001 R UpperArm
+    100196: NPC-Left_Back001 Spine
+    100198: NPC-Left_Back001 Spine1
+    100200: NPC-Left_Back001 Spine2
+    100202: NPC-Left_Back001 Spine3
+    100204: NPC-Left_Front
+    100206: NPC-Left_Front 1
+    100208: //RootNode
+    400000: NPC-Left_Back001 Head
+    400002: NPC-Left_Back001 HeadNub
+    400004: NPC-Left_Back001 L Calf
+    400006: NPC-Left_Back001 L Clavicle
+    400008: NPC-Left_Back001 L Finger0
+    400010: NPC-Left_Back001 L Finger01
+    400012: NPC-Left_Back001 L Finger02
+    400014: NPC-Left_Back001 L Finger0Nub
+    400016: NPC-Left_Back001 L Finger1
+    400018: NPC-Left_Back001 L Finger11
+    400020: NPC-Left_Back001 L Finger12
+    400022: NPC-Left_Back001 L Finger1Nub
+    400024: NPC-Left_Back001 L Finger2
+    400026: NPC-Left_Back001 L Finger21
+    400028: NPC-Left_Back001 L Finger22
+    400030: NPC-Left_Back001 L Finger2Nub
+    400032: NPC-Left_Back001 L Finger3
+    400034: NPC-Left_Back001 L Finger31
+    400036: NPC-Left_Back001 L Finger32
+    400038: NPC-Left_Back001 L Finger3Nub
+    400040: NPC-Left_Back001 L Finger4
+    400042: NPC-Left_Back001 L Finger41
+    400044: NPC-Left_Back001 L Finger42
+    400046: NPC-Left_Back001 L Finger4Nub
+    400048: NPC-Left_Back001 L Foot
+    400050: NPC-Left_Back001 L Forearm
+    400052: NPC-Left_Back001 L Hand
+    400054: NPC-Left_Back001 L Thigh
+    400056: NPC-Left_Back001 L Toe0
+    400058: NPC-Left_Back001 L Toe01
+    400060: NPC-Left_Back001 L Toe02
+    400062: NPC-Left_Back001 L Toe0Nub
+    400064: NPC-Left_Back001 L Toe1
+    400066: NPC-Left_Back001 L Toe11
+    400068: NPC-Left_Back001 L Toe12
+    400070: NPC-Left_Back001 L Toe1Nub
+    400072: NPC-Left_Back001 L Toe2
+    400074: NPC-Left_Back001 L Toe21
+    400076: NPC-Left_Back001 L Toe22
+    400078: NPC-Left_Back001 L Toe2Nub
+    400080: NPC-Left_Back001 L Toe3
+    400082: NPC-Left_Back001 L Toe31
+    400084: NPC-Left_Back001 L Toe32
+    400086: NPC-Left_Back001 L Toe3Nub
+    400088: NPC-Left_Back001 L Toe4
+    400090: NPC-Left_Back001 L Toe41
+    400092: NPC-Left_Back001 L Toe42
+    400094: NPC-Left_Back001 L Toe4Nub
+    400096: NPC-Left_Back001 L UpperArm
+    400098: NPC-Left_Back001 Neck
+    400100: NPC-Left_Back001 Pelvis
+    400102: NPC-Left_Back001 R Calf
+    400104: NPC-Left_Back001 R Clavicle
+    400106: NPC-Left_Back001 R Finger0
+    400108: NPC-Left_Back001 R Finger01
+    400110: NPC-Left_Back001 R Finger02
+    400112: NPC-Left_Back001 R Finger0Nub
+    400114: NPC-Left_Back001 R Finger1
+    400116: NPC-Left_Back001 R Finger11
+    400118: NPC-Left_Back001 R Finger12
+    400120: NPC-Left_Back001 R Finger1Nub
+    400122: NPC-Left_Back001 R Finger2
+    400124: NPC-Left_Back001 R Finger21
+    400126: NPC-Left_Back001 R Finger22
+    400128: NPC-Left_Back001 R Finger2Nub
+    400130: NPC-Left_Back001 R Finger3
+    400132: NPC-Left_Back001 R Finger31
+    400134: NPC-Left_Back001 R Finger32
+    400136: NPC-Left_Back001 R Finger3Nub
+    400138: NPC-Left_Back001 R Finger4
+    400140: NPC-Left_Back001 R Finger41
+    400142: NPC-Left_Back001 R Finger42
+    400144: NPC-Left_Back001 R Finger4Nub
+    400146: NPC-Left_Back001 R Foot
+    400148: NPC-Left_Back001 R Forearm
+    400150: NPC-Left_Back001 R Hand
+    400152: NPC-Left_Back001 R Thigh
+    400154: NPC-Left_Back001 R Toe0
+    400156: NPC-Left_Back001 R Toe01
+    400158: NPC-Left_Back001 R Toe02
+    400160: NPC-Left_Back001 R Toe0Nub
+    400162: NPC-Left_Back001 R Toe1
+    400164: NPC-Left_Back001 R Toe11
+    400166: NPC-Left_Back001 R Toe12
+    400168: NPC-Left_Back001 R Toe1Nub
+    400170: NPC-Left_Back001 R Toe2
+    400172: NPC-Left_Back001 R Toe21
+    400174: NPC-Left_Back001 R Toe22
+    400176: NPC-Left_Back001 R Toe2Nub
+    400178: NPC-Left_Back001 R Toe3
+    400180: NPC-Left_Back001 R Toe31
+    400182: NPC-Left_Back001 R Toe32
+    400184: NPC-Left_Back001 R Toe3Nub
+    400186: NPC-Left_Back001 R Toe4
+    400188: NPC-Left_Back001 R Toe41
+    400190: NPC-Left_Back001 R Toe42
+    400192: NPC-Left_Back001 R Toe4Nub
+    400194: NPC-Left_Back001 R UpperArm
+    400196: NPC-Left_Back001 Spine
+    400198: NPC-Left_Back001 Spine1
+    400200: NPC-Left_Back001 Spine2
+    400202: NPC-Left_Back001 Spine3
+    400204: NPC-Left_Front
+    400206: NPC-Left_Front 1
+    400208: //RootNode
+    4300000: NPC-Left_Front
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: NPC-Left_Front 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

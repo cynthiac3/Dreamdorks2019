@@ -15,9 +15,10 @@ public class RandomQuestions : MonoBehaviour
     public Text TextB;
 
     public GameObject text3D;
+    public GameObject gm;
 
     public int bossFight = 0;
-    int numQuestions = 10;
+    public int numQuestions = 10;
 
     public string[][] MathQuestions = new string[10][];
     public string[][] GeoQuestions = new string[10][];
@@ -135,10 +136,9 @@ public class RandomQuestions : MonoBehaviour
 
     void Start()
     {
-
         generateQuestion();
         getQuestion(bossFight);
-
+        gm.GetComponent<WinLose>().isMazing = false;
 
     }
 
