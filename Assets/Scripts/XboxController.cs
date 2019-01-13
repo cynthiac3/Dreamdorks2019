@@ -26,46 +26,20 @@ public class XboxController : MonoBehaviour {
         var go = EventSystem.current.currentSelectedGameObject;
         if (go != null)
         {
-            Debug.Log(go.GetComponentInChildren<Text>().text);
             if (canvas.GetComponent<RandomQuestions>().getAnswer(canvas.GetComponent<RandomQuestions>().answer, go.GetComponentInChildren<Text>().text))
             {
-                Debug.Log("Good!");
                 if (canvas.GetComponent<Health>().currentTeacherHP > 0)
                     canvas.GetComponent<Health>().AttackTeacher();
             }
             else
             {
-                Debug.Log("Wrong!");
                 if (canvas.GetComponent<Health>().currentPlayerHP > 0)
                     canvas.GetComponent<Health>().GotHit();
             }
 
             canvas.GetComponent<RandomQuestions>().getQuestion(canvas.GetComponent<RandomQuestions>().bossFight);
         }
-        else
-            Debug.Log("null");
     }
-
-    /*
-    public void ButtonAClicked()
-    {
-        Debug.Log("A Pressed");
-        //return this.GetComponent<Text>().text;
-        
-    }
-    public void ButtonBClicked()
-    {
-        Debug.Log("B Pressed");
-    }
-    public void ButtonXClicked()
-    {
-        Debug.Log("X Pressed");
-    }
-    public void ButtonYClicked()
-    {
-        Debug.Log("Y Pressed");
-    }
-    */
 
     // Update is called once per frame
     void Update () {
