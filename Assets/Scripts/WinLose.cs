@@ -65,7 +65,6 @@ public class WinLose : MonoBehaviour {
             canvas.SetActive(true);
             isMazing = false;
             canvas.GetComponent<Health>().ResetHP();
-            canvas.GetComponent<RandomQuestions>().bossFight++;
         }
 
         if (mazeGame == 1)
