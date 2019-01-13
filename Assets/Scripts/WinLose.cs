@@ -17,6 +17,8 @@ public class WinLose : MonoBehaviour {
 
     public Animator gameMode;
 
+    public GameObject menu;
+
     public bool isMazing = false;
 
     public void EndWin()
@@ -24,7 +26,7 @@ public class WinLose : MonoBehaviour {
         cam.GetComponent<CameraFollow>().enabled = false;
         SchoolsOut.SetActive(true);
         canvas.SetActive(false);
-        Debug.Log("WIN");
+        menu.GetComponent<Menu>().WinScreen.SetActive(true);
     }
 
     public int CurrentGame()
@@ -99,7 +101,7 @@ public class WinLose : MonoBehaviour {
         cam.GetComponent<CameraFollow>().enabled = false;
         Detention.SetActive(true);
         canvas.SetActive(false);
-        
+        menu.GetComponent<Menu>().GameOverScreen.SetActive(true);
         Debug.Log("LOSE");
     }
 
@@ -111,7 +113,6 @@ public class WinLose : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //TESTING -- A ENLEVER APRES L'AJOUT DU MAZE
-        Debug.Log(isMazing);
         if(CurrentGame() == 1)
             if (Input.GetKey(KeyCode.A))
                 SwitchGame(0);
