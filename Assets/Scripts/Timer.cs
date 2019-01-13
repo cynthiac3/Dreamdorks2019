@@ -32,7 +32,7 @@ public class Timer : MonoBehaviour
             if (canvas.GetComponent<Health>().currentPlayerHP > 0)
             {
                 canvas.GetComponent<Health>().GotHit();
-                canvas.GetComponent<RandomQuestions>().getQuestion(canvas.GetComponent<RandomQuestions>().bossFight);
+                canvas.GetComponent<RandomQuestions>().getQuestion();
             }
 
 
