@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class WinLose : MonoBehaviour {
 
+
+
     public int mazeGame = 0;
-    public int bossGame = 1;
+    public int bossGame = 0;
 
     public GameObject Detention;
     public GameObject SchoolsOut;
@@ -13,27 +15,88 @@ public class WinLose : MonoBehaviour {
     public Animator animator;
     public GameObject cam;
 
+    public Animator gameMode;
+
+    public GameObject menu;
+
+    public GameObject bubble;
+    public GameObject detentionTitle, winningTitle;
+    public bool isMazing = false;
+
+    public GameObject question3D;
+
+    public GameObject teacher;
+
     public void EndWin()
     {
+        teacher.GetComponent<Animator>().SetTrigger("GameWon");
+        winningTitle.SetActive(true);
         cam.GetComponent<CameraFollow>().enabled = false;
         SchoolsOut.SetActive(true);
         canvas.SetActive(false);
-        Debug.Log("WIN");
+        question3D.SetActive(false);
+        menu.GetComponent<Menu>().WinScreen.SetActive(true);
+    }
+
+    public int CurrentGame()
+    {
+        if (isMazing)
+            return 1;
+        else
+            return 0;
+    }
+
+    public void SwitchGame(int mode)
+    {
+        if(mode == 1) // switching to mode 1 -> Maze //!!changer le nb dans bossGame et mazeGame
+        {
+            bossGame++;
+            if (bossGame == 3)
+            {
+                EndWin(); //End of the game
+            }
+            else
+            {
+                gameMode.SetTrigger("MazeTrigger");
+                canvas.SetActive(false);
+                isMazing = true;
+                
+            }
+        }
+        else if(mode == 0) // switching to mode 0 -> BossFight
+        {
+            mazeGame++;
+            //WAIT? and turn off the maze game 
+            gameMode.SetTrigger("BossTrigger");
+            canvas.SetActive(true);
+            isMazing = false;
+            canvas.GetComponent<Health>().ResetHP();
+        }
+
+        if (mazeGame == 1)
+        {
+            //setactive level1
+        }
+        //else setactive level2
+
     }
 
     public void WinGame(string game)
     {
-        if (game == "boss")
+        if (game == "boss") //BossFight gamemode
         {
             bossGame++;
             if (bossGame == 2)
             {
-                EndWin();
+                EndWin(); //End of the game
             }
-            //else animation to maze
+
         }
-        else mazeGame++;
-        //animation
+        else
+        {
+            mazeGame++;
+            gameMode.SetTrigger("BossTrigger");
+        }
         if (mazeGame == 1)
         {
             //setactive level1
@@ -44,10 +107,13 @@ public class WinLose : MonoBehaviour {
 
     public void LoseGame()
     {
+        teacher.GetComponent<Animator>().SetTrigger("GameLost");
+        detentionTitle.SetActive(true);
         cam.GetComponent<CameraFollow>().enabled = false;
         Detention.SetActive(true);
         canvas.SetActive(false);
-        
+        question3D.SetActive(false);
+        menu.GetComponent<Menu>().GameOverScreen.SetActive(true);
         Debug.Log("LOSE");
     }
 
@@ -58,6 +124,9 @@ public class WinLose : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        //TESTING -- A ENLEVER APRES L'AJOUT DU MAZE
+        if(CurrentGame() == 1)
+            if (Input.GetKey(KeyCode.A))
+                SwitchGame(0);
+    }
 }

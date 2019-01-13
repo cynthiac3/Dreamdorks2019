@@ -13,12 +13,12 @@ public class XboxController : MonoBehaviour {
     public Button buttonX;
     public Button buttonY;
 
-    string[][] subject;
+    //string[][] subject;
 
 
     // Use this for initialization
     void Start () {
-        subject = canvas.GetComponent<RandomQuestions>().MathQuestions;
+        //subject = canvas.GetComponent<RandomQuestions>().MathQuestions;
     }
 
     public void OnButtonClick()
@@ -37,7 +37,7 @@ public class XboxController : MonoBehaviour {
                     canvas.GetComponent<Health>().GotHit();
             }
 
-            canvas.GetComponent<RandomQuestions>().getQuestion(canvas.GetComponent<RandomQuestions>().bossFight);
+            canvas.GetComponent<RandomQuestions>().getQuestion();
         }
     }
 

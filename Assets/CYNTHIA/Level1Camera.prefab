@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1316350959439484}
+  m_RootGameObject: {fileID: 1082822073447364}
   m_IsPrefabAsset: 1
---- !u!1 &1316350959439484
+--- !u!1 &1082822073447364
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4138305105580968}
-  - component: {fileID: 20580885712169400}
-  - component: {fileID: 81833581941834712}
+  - component: {fileID: 4491778140955878}
+  - component: {fileID: 20751951414405510}
+  - component: {fileID: 81006390689799420}
   m_Layer: 0
   m_Name: Level1Camera
   m_TagString: MainCamera
@@ -28,25 +28,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4138305105580968
+--- !u!4 &4491778140955878
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1316350959439484}
+  m_GameObject: {fileID: 1082822073447364}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 83.9, y: 5.8, z: 131}
+  m_LocalPosition: {x: 93.42, y: 17.2, z: 58.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!20 &20580885712169400
+--- !u!20 &20751951414405510
 Camera:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1316350959439484}
+  m_GameObject: {fileID: 1082822073447364}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -71,7 +71,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 849055c2d99e2d94d9a318d38caaedf2, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 3251fa05f03ef5442ac47a444109e6f6, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -81,10 +81,10 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &81833581941834712
+--- !u!81 &81006390689799420
 AudioListener:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1316350959439484}
+  m_GameObject: {fileID: 1082822073447364}
   m_Enabled: 1

@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour {
+public class Enemy : MonoBehaviour
+{
 
     // Where is the player
     private Transform playerTransform;
@@ -11,29 +12,31 @@ public class Enemy : MonoBehaviour {
     bool waiting = false;
     private float distanceFromTarget;
     public bool inViewCone;
-    public bool dir;
+    public bool odd;
+    private bool reverse = false;
 
     // Where is it going and how fast?
     Vector3 direction;
-    private float walkSpeed = 0.4f;
+    public float walkSpeed = 0.4f;
     public int currentTarget;
 
     public Transform[] navPoints;
-    public float speed = 0.4f;
+    // public float speed = 0.4f;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         // Get a reference to the player's transform
         playerTransform = GameObject.Find("chara").transform;
 
         transform.position = navPoints[0].position;
         currentTarget = 0;
-        dir = true;
         direction = navPoints[currentTarget].position - transform.position;
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
 
         // If chasing get the position of the player and point towards it
         if (chasing)
@@ -49,32 +52,33 @@ public class Enemy : MonoBehaviour {
         }
     }
 
-    private void FixedUpdate() {
+    private void FixedUpdate()
+    {
         // Give the values to the FSM (animator)
         distanceFromTarget = Vector3.Distance(navPoints[currentTarget].position, transform.position);
     }
 
     public void SetNextPoint()
     {
-        /*
-        Debug.Log("Current target = " + currentTarget);
-        if (currentTarget == navPoints.Length - 1)
-            currentTarget = 0;
-        if (currentTarget == 0)
-            dir = true;
+        if (!odd)
+        {
+            if (currentTarget == navPoints.Length - 1)
+                currentTarget = 0;
+            else
+                currentTarget++;
+        }
+        else
+        {
+            if (currentTarget == navPoints.Length - 1)
+                reverse = true;
+            if (currentTarget == 0)
+                reverse = false;
 
-        if (dir)
-            currentTarget++;
-        else
-            currentTarget--;
-        Debug.Log("Current target2 = " + currentTarget);
-        // Load the direction of the next waypoint
-        direction = navPoints[currentTarget].position - transform.position;
-        */
-        if (currentTarget == navPoints.Length - 1)
-            currentTarget = 0;
-        else
-            currentTarget++;
+            if (!reverse)
+                currentTarget++;
+            else
+                currentTarget--;
+        }
 
         direction = navPoints[currentTarget].position - transform.position;
     }
@@ -89,10 +93,10 @@ public class Enemy : MonoBehaviour {
         waiting = !waiting;
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "NavPoint") {
-            Debug.Log("Collision with navpoint");
+        if (other.gameObject.tag == "NavPoint")
+        {
             SetNextPoint();
         }
     }
