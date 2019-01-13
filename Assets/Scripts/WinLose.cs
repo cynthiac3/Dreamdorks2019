@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class WinLose : MonoBehaviour {
 
+
+
     public int mazeGame = 0;
-    public int bossGame = 1;
+    public int bossGame = 0;
 
     public GameObject Detention;
     public GameObject SchoolsOut;
     public GameObject canvas;
     public Animator animator;
     public GameObject cam;
+
+    public Animator gameMode;
+
+    public bool isMazing = false;
 
     public void EndWin()
     {
@@ -21,19 +27,65 @@ public class WinLose : MonoBehaviour {
         Debug.Log("WIN");
     }
 
+    public int CurrentGame()
+    {
+        if (isMazing)
+            return 1;
+        else
+            return 0;
+    }
+
+    public void SwitchGame(int mode)
+    {
+        if(mode == 1) // switching to mode 1 -> Maze //!!changer le nb dans bossGame et mazeGame
+        {
+            bossGame++;
+            if (bossGame == 3)
+            {
+                EndWin(); //End of the game
+            }
+            else
+            {
+                gameMode.SetTrigger("MazeTrigger");
+                canvas.SetActive(false);
+                isMazing = true;
+                
+            }
+        }
+        else if(mode == 0) // switching to mode 0 -> BossFight
+        {
+            mazeGame++;
+            gameMode.SetTrigger("BossTrigger");
+            canvas.SetActive(true);
+            isMazing = false;
+            canvas.GetComponent<Health>().ResetHP();
+            canvas.GetComponent<RandomQuestions>().bossFight++;
+        }
+
+        if (mazeGame == 1)
+        {
+            //setactive level1
+        }
+        //else setactive level2
+
+    }
+
     public void WinGame(string game)
     {
-        if (game == "boss")
+        if (game == "boss") //BossFight gamemode
         {
             bossGame++;
             if (bossGame == 2)
             {
-                EndWin();
+                EndWin(); //End of the game
             }
-            //else animation to maze
+
         }
-        else mazeGame++;
-        //animation
+        else
+        {
+            mazeGame++;
+            gameMode.SetTrigger("BossTrigger");
+        }
         if (mazeGame == 1)
         {
             //setactive level1
@@ -58,6 +110,10 @@ public class WinLose : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        //TESTING -- A ENLEVER APRES L'AJOUT DU MAZE
+        Debug.Log(isMazing);
+        if(CurrentGame() == 1)
+            if (Input.GetKey(KeyCode.A))
+                SwitchGame(0);
+    }
 }

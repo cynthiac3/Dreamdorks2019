@@ -1,0 +1,2032 @@
+fileFormatVersion: 2
+guid: cab59701a16a0e341aa693cfae225c83
+timeCreated: 1547346985
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bip001 Footsteps
+    100004: Bip001 Head
+    100006: Bip001 HeadNub
+    100008: Bip001 L Calf
+    100010: Bip001 L Clavicle
+    100012: Bip001 L Finger0
+    100014: Bip001 L Finger01
+    100016: Bip001 L Finger02
+    100018: Bip001 L Finger0Nub
+    100020: Bip001 L Finger1
+    100022: Bip001 L Finger11
+    100024: Bip001 L Finger12
+    100026: Bip001 L Finger1Nub
+    100028: Bip001 L Finger2
+    100030: Bip001 L Finger21
+    100032: Bip001 L Finger22
+    100034: Bip001 L Finger2Nub
+    100036: Bip001 L Finger3
+    100038: Bip001 L Finger31
+    100040: Bip001 L Finger32
+    100042: Bip001 L Finger3Nub
+    100044: Bip001 L Finger4
+    100046: Bip001 L Finger41
+    100048: Bip001 L Finger42
+    100050: Bip001 L Finger4Nub
+    100052: Bip001 L Foot
+    100054: Bip001 L Forearm
+    100056: Bip001 L Hand
+    100058: Bip001 L Thigh
+    100060: Bip001 L Toe0
+    100062: Bip001 L Toe01
+    100064: Bip001 L Toe02
+    100066: Bip001 L Toe0Nub
+    100068: Bip001 L Toe1
+    100070: Bip001 L Toe11
+    100072: Bip001 L Toe12
+    100074: Bip001 L Toe1Nub
+    100076: Bip001 L Toe2
+    100078: Bip001 L Toe21
+    100080: Bip001 L Toe22
+    100082: Bip001 L Toe2Nub
+    100084: Bip001 L Toe3
+    100086: Bip001 L Toe31
+    100088: Bip001 L Toe32
+    100090: Bip001 L Toe3Nub
+    100092: Bip001 L Toe4
+    100094: Bip001 L Toe41
+    100096: Bip001 L Toe42
+    100098: Bip001 L Toe4Nub
+    100100: Bip001 L UpperArm
+    100102: Bip001 Neck
+    100104: Bip001 Pelvis
+    100106: Bip001 R Calf
+    100108: Bip001 R Clavicle
+    100110: Bip001 R Finger0
+    100112: Bip001 R Finger01
+    100114: Bip001 R Finger02
+    100116: Bip001 R Finger0Nub
+    100118: Bip001 R Finger1
+    100120: Bip001 R Finger11
+    100122: Bip001 R Finger12
+    100124: Bip001 R Finger1Nub
+    100126: Bip001 R Finger2
+    100128: Bip001 R Finger21
+    100130: Bip001 R Finger22
+    100132: Bip001 R Finger2Nub
+    100134: Bip001 R Finger3
+    100136: Bip001 R Finger31
+    100138: Bip001 R Finger32
+    100140: Bip001 R Finger3Nub
+    100142: Bip001 R Finger4
+    100144: Bip001 R Finger41
+    100146: Bip001 R Finger42
+    100148: Bip001 R Finger4Nub
+    100150: Bip001 R Foot
+    100152: Bip001 R Forearm
+    100154: Bip001 R Hand
+    100156: Bip001 R Thigh
+    100158: Bip001 R Toe0
+    100160: Bip001 R Toe01
+    100162: Bip001 R Toe02
+    100164: Bip001 R Toe0Nub
+    100166: Bip001 R Toe1
+    100168: Bip001 R Toe11
+    100170: Bip001 R Toe12
+    100172: Bip001 R Toe1Nub
+    100174: Bip001 R Toe2
+    100176: Bip001 R Toe21
+    100178: Bip001 R Toe22
+    100180: Bip001 R Toe2Nub
+    100182: Bip001 R Toe3
+    100184: Bip001 R Toe31
+    100186: Bip001 R Toe32
+    100188: Bip001 R Toe3Nub
+    100190: Bip001 R Toe4
+    100192: Bip001 R Toe41
+    100194: Bip001 R Toe42
+    100196: Bip001 R Toe4Nub
+    100198: Bip001 R UpperArm
+    100200: Bip001 Spine
+    100202: Bip001 Spine1
+    100204: Bip001 Spine2
+    100206: Bip001 Spine3
+    100208: Blackboard
+    100210: Book-Close
+    100212: Book-Close001
+    100214: Book-Close002
+    100216: Book-Close003
+    100218: Book-Close004
+    100220: Book-Close005
+    100222: Book-Close006
+    100224: Book-Close007
+    100226: Book-Close008
+    100228: Book-Close009
+    100230: Book-Open
+    100232: Book-Open001
+    100234: Book-Open002
+    100236: Box001
+    100238: Box002
+    100240: Box003
+    100242: Box004
+    100244: Box005
+    100246: Box007
+    100248: Box011
+    100250: Box012
+    100252: Box013
+    100254: Box014
+    100256: Box015
+    100258: Box016
+    100260: Box017
+    100262: Box018
+    100264: Box019
+    100266: camera
+    100268: Camera-P
+    100270: Camera-P.Target
+    100272: Camera.Target
+    100274: Chair-00
+    100276: Chair-01
+    100278: Chair-02
+    100280: Chair-03
+    100282: Chair-04
+    100284: Chair-05
+    100286: Chairs
+    100288: ClassRoom
+    100290: Classroom
+    100292: Computer
+    100294: Cylinder001
+    100296: Cylinder004
+    100298: Cylinder005
+    100300: Cylinder006
+    100302: Cylinder007
+    100304: Cylinder008
+    100306: Cylinder009
+    100308: Cylinder010
+    100310: Door
+    100312: Door-F
+    100314: Dreamer
+    100316: Dreamer-D
+    100318: Dreamer-D 1
+    100320: Dreamer-D001
+    100322: Eraser
+    100324: Eraser001
+    100326: Eraser002
+    100328: Hose001
+    100330: Hose002
+    100332: Hose003
+    100334: Hose004
+    100336: Hose005
+    100338: Hose006
+    100340: Light
+    100342: NPC-Left_Back
+    100344: NPC-Left_Back001 Footsteps
+    100346: NPC-Left_Back001 Head
+    100348: NPC-Left_Back001 HeadNub
+    100350: NPC-Left_Back001 L Calf
+    100352: NPC-Left_Back001 L Clavicle
+    100354: NPC-Left_Back001 L Finger0
+    100356: NPC-Left_Back001 L Finger01
+    100358: NPC-Left_Back001 L Finger02
+    100360: NPC-Left_Back001 L Finger0Nub
+    100362: NPC-Left_Back001 L Finger1
+    100364: NPC-Left_Back001 L Finger11
+    100366: NPC-Left_Back001 L Finger12
+    100368: NPC-Left_Back001 L Finger1Nub
+    100370: NPC-Left_Back001 L Finger2
+    100372: NPC-Left_Back001 L Finger21
+    100374: NPC-Left_Back001 L Finger22
+    100376: NPC-Left_Back001 L Finger2Nub
+    100378: NPC-Left_Back001 L Finger3
+    100380: NPC-Left_Back001 L Finger31
+    100382: NPC-Left_Back001 L Finger32
+    100384: NPC-Left_Back001 L Finger3Nub
+    100386: NPC-Left_Back001 L Finger4
+    100388: NPC-Left_Back001 L Finger41
+    100390: NPC-Left_Back001 L Finger42
+    100392: NPC-Left_Back001 L Finger4Nub
+    100394: NPC-Left_Back001 L Foot
+    100396: NPC-Left_Back001 L Forearm
+    100398: NPC-Left_Back001 L Hand
+    100400: NPC-Left_Back001 L Thigh
+    100402: NPC-Left_Back001 L Toe0
+    100404: NPC-Left_Back001 L Toe01
+    100406: NPC-Left_Back001 L Toe02
+    100408: NPC-Left_Back001 L Toe0Nub
+    100410: NPC-Left_Back001 L Toe1
+    100412: NPC-Left_Back001 L Toe11
+    100414: NPC-Left_Back001 L Toe12
+    100416: NPC-Left_Back001 L Toe1Nub
+    100418: NPC-Left_Back001 L Toe2
+    100420: NPC-Left_Back001 L Toe21
+    100422: NPC-Left_Back001 L Toe22
+    100424: NPC-Left_Back001 L Toe2Nub
+    100426: NPC-Left_Back001 L Toe3
+    100428: NPC-Left_Back001 L Toe31
+    100430: NPC-Left_Back001 L Toe32
+    100432: NPC-Left_Back001 L Toe3Nub
+    100434: NPC-Left_Back001 L Toe4
+    100436: NPC-Left_Back001 L Toe41
+    100438: NPC-Left_Back001 L Toe42
+    100440: NPC-Left_Back001 L Toe4Nub
+    100442: NPC-Left_Back001 L UpperArm
+    100444: NPC-Left_Back001 Neck
+    100446: NPC-Left_Back001 Pelvis
+    100448: NPC-Left_Back001 R Calf
+    100450: NPC-Left_Back001 R Clavicle
+    100452: NPC-Left_Back001 R Finger0
+    100454: NPC-Left_Back001 R Finger01
+    100456: NPC-Left_Back001 R Finger02
+    100458: NPC-Left_Back001 R Finger0Nub
+    100460: NPC-Left_Back001 R Finger1
+    100462: NPC-Left_Back001 R Finger11
+    100464: NPC-Left_Back001 R Finger12
+    100466: NPC-Left_Back001 R Finger1Nub
+    100468: NPC-Left_Back001 R Finger2
+    100470: NPC-Left_Back001 R Finger21
+    100472: NPC-Left_Back001 R Finger22
+    100474: NPC-Left_Back001 R Finger2Nub
+    100476: NPC-Left_Back001 R Finger3
+    100478: NPC-Left_Back001 R Finger31
+    100480: NPC-Left_Back001 R Finger32
+    100482: NPC-Left_Back001 R Finger3Nub
+    100484: NPC-Left_Back001 R Finger4
+    100486: NPC-Left_Back001 R Finger41
+    100488: NPC-Left_Back001 R Finger42
+    100490: NPC-Left_Back001 R Finger4Nub
+    100492: NPC-Left_Back001 R Foot
+    100494: NPC-Left_Back001 R Forearm
+    100496: NPC-Left_Back001 R Hand
+    100498: NPC-Left_Back001 R Thigh
+    100500: NPC-Left_Back001 R Toe0
+    100502: NPC-Left_Back001 R Toe01
+    100504: NPC-Left_Back001 R Toe02
+    100506: NPC-Left_Back001 R Toe0Nub
+    100508: NPC-Left_Back001 R Toe1
+    100510: NPC-Left_Back001 R Toe11
+    100512: NPC-Left_Back001 R Toe12
+    100514: NPC-Left_Back001 R Toe1Nub
+    100516: NPC-Left_Back001 R Toe2
+    100518: NPC-Left_Back001 R Toe21
+    100520: NPC-Left_Back001 R Toe22
+    100522: NPC-Left_Back001 R Toe2Nub
+    100524: NPC-Left_Back001 R Toe3
+    100526: NPC-Left_Back001 R Toe31
+    100528: NPC-Left_Back001 R Toe32
+    100530: NPC-Left_Back001 R Toe3Nub
+    100532: NPC-Left_Back001 R Toe4
+    100534: NPC-Left_Back001 R Toe41
+    100536: NPC-Left_Back001 R Toe42
+    100538: NPC-Left_Back001 R Toe4Nub
+    100540: NPC-Left_Back001 R UpperArm
+    100542: NPC-Left_Back001 Spine
+    100544: NPC-Left_Back001 Spine1
+    100546: NPC-Left_Back001 Spine2
+    100548: NPC-Left_Back001 Spine3
+    100550: NPC-Left_Front
+    100552: NPC-Left_Front 1
+    100554: NPC-Left_Front 2
+    100556: NPC-Right_Back
+    100558: NPC-Right_Back 1
+    100560: NPC-Right_Back001 Footsteps
+    100562: NPC-Right_Back001 Head
+    100564: NPC-Right_Back001 HeadNub
+    100566: NPC-Right_Back001 L Calf
+    100568: NPC-Right_Back001 L Clavicle
+    100570: NPC-Right_Back001 L Finger0
+    100572: NPC-Right_Back001 L Finger01
+    100574: NPC-Right_Back001 L Finger02
+    100576: NPC-Right_Back001 L Finger0Nub
+    100578: NPC-Right_Back001 L Finger1
+    100580: NPC-Right_Back001 L Finger11
+    100582: NPC-Right_Back001 L Finger12
+    100584: NPC-Right_Back001 L Finger1Nub
+    100586: NPC-Right_Back001 L Finger2
+    100588: NPC-Right_Back001 L Finger21
+    100590: NPC-Right_Back001 L Finger22
+    100592: NPC-Right_Back001 L Finger2Nub
+    100594: NPC-Right_Back001 L Finger3
+    100596: NPC-Right_Back001 L Finger31
+    100598: NPC-Right_Back001 L Finger32
+    100600: NPC-Right_Back001 L Finger3Nub
+    100602: NPC-Right_Back001 L Finger4
+    100604: NPC-Right_Back001 L Finger41
+    100606: NPC-Right_Back001 L Finger42
+    100608: NPC-Right_Back001 L Finger4Nub
+    100610: NPC-Right_Back001 L Foot
+    100612: NPC-Right_Back001 L Forearm
+    100614: NPC-Right_Back001 L Hand
+    100616: NPC-Right_Back001 L Thigh
+    100618: NPC-Right_Back001 L Toe0
+    100620: NPC-Right_Back001 L Toe01
+    100622: NPC-Right_Back001 L Toe02
+    100624: NPC-Right_Back001 L Toe0Nub
+    100626: NPC-Right_Back001 L Toe1
+    100628: NPC-Right_Back001 L Toe11
+    100630: NPC-Right_Back001 L Toe12
+    100632: NPC-Right_Back001 L Toe1Nub
+    100634: NPC-Right_Back001 L Toe2
+    100636: NPC-Right_Back001 L Toe21
+    100638: NPC-Right_Back001 L Toe22
+    100640: NPC-Right_Back001 L Toe2Nub
+    100642: NPC-Right_Back001 L Toe3
+    100644: NPC-Right_Back001 L Toe31
+    100646: NPC-Right_Back001 L Toe32
+    100648: NPC-Right_Back001 L Toe3Nub
+    100650: NPC-Right_Back001 L Toe4
+    100652: NPC-Right_Back001 L Toe41
+    100654: NPC-Right_Back001 L Toe42
+    100656: NPC-Right_Back001 L Toe4Nub
+    100658: NPC-Right_Back001 L UpperArm
+    100660: NPC-Right_Back001 Neck
+    100662: NPC-Right_Back001 Pelvis
+    100664: NPC-Right_Back001 R Calf
+    100666: NPC-Right_Back001 R Clavicle
+    100668: NPC-Right_Back001 R Finger0
+    100670: NPC-Right_Back001 R Finger01
+    100672: NPC-Right_Back001 R Finger02
+    100674: NPC-Right_Back001 R Finger0Nub
+    100676: NPC-Right_Back001 R Finger1
+    100678: NPC-Right_Back001 R Finger11
+    100680: NPC-Right_Back001 R Finger12
+    100682: NPC-Right_Back001 R Finger1Nub
+    100684: NPC-Right_Back001 R Finger2
+    100686: NPC-Right_Back001 R Finger21
+    100688: NPC-Right_Back001 R Finger22
+    100690: NPC-Right_Back001 R Finger2Nub
+    100692: NPC-Right_Back001 R Finger3
+    100694: NPC-Right_Back001 R Finger31
+    100696: NPC-Right_Back001 R Finger32
+    100698: NPC-Right_Back001 R Finger3Nub
+    100700: NPC-Right_Back001 R Finger4
+    100702: NPC-Right_Back001 R Finger41
+    100704: NPC-Right_Back001 R Finger42
+    100706: NPC-Right_Back001 R Finger4Nub
+    100708: NPC-Right_Back001 R Foot
+    100710: NPC-Right_Back001 R Forearm
+    100712: NPC-Right_Back001 R Hand
+    100714: NPC-Right_Back001 R Thigh
+    100716: NPC-Right_Back001 R Toe0
+    100718: NPC-Right_Back001 R Toe01
+    100720: NPC-Right_Back001 R Toe02
+    100722: NPC-Right_Back001 R Toe0Nub
+    100724: NPC-Right_Back001 R Toe1
+    100726: NPC-Right_Back001 R Toe11
+    100728: NPC-Right_Back001 R Toe12
+    100730: NPC-Right_Back001 R Toe1Nub
+    100732: NPC-Right_Back001 R Toe2
+    100734: NPC-Right_Back001 R Toe21
+    100736: NPC-Right_Back001 R Toe22
+    100738: NPC-Right_Back001 R Toe2Nub
+    100740: NPC-Right_Back001 R Toe3
+    100742: NPC-Right_Back001 R Toe31
+    100744: NPC-Right_Back001 R Toe32
+    100746: NPC-Right_Back001 R Toe3Nub
+    100748: NPC-Right_Back001 R Toe4
+    100750: NPC-Right_Back001 R Toe41
+    100752: NPC-Right_Back001 R Toe42
+    100754: NPC-Right_Back001 R Toe4Nub
+    100756: NPC-Right_Back001 R UpperArm
+    100758: NPC-Right_Back001 Spine
+    100760: NPC-Right_Back001 Spine1
+    100762: NPC-Right_Back001 Spine2
+    100764: NPC-Right_Back001 Spine3
+    100766: NPC-Right_Front
+    100768: NPC-Right_Front 1
+    100770: NPC-Walk
+    100772: NPC-Walk 1
+    100774: P-Case
+    100776: Pencil
+    100778: Pencil001
+    100780: Pencil002
+    100782: Pencil003
+    100784: Pencil004
+    100786: Pencil005
+    100788: Pencil006
+    100790: Plane001
+    100792: Player
+    100794: Player 1
+    100796: PLayer-FPS
+    100798: Player-FPS
+    100800: Player001 Footsteps
+    100802: Player001 Footsteps 1
+    100804: Player001 Head
+    100806: Player001 Head 1
+    100808: Player001 HeadNub
+    100810: Player001 HeadNub 1
+    100812: Player001 L Calf
+    100814: Player001 L Calf 1
+    100816: Player001 L Clavicle
+    100818: Player001 L Clavicle 1
+    100820: Player001 L Finger0
+    100822: Player001 L Finger0 1
+    100824: Player001 L Finger01
+    100826: Player001 L Finger01 1
+    100828: Player001 L Finger02
+    100830: Player001 L Finger02 1
+    100832: Player001 L Finger0Nub
+    100834: Player001 L Finger0Nub 1
+    100836: Player001 L Finger1
+    100838: Player001 L Finger1 1
+    100840: Player001 L Finger11
+    100842: Player001 L Finger11 1
+    100844: Player001 L Finger12
+    100846: Player001 L Finger12 1
+    100848: Player001 L Finger1Nub
+    100850: Player001 L Finger1Nub 1
+    100852: Player001 L Finger2
+    100854: Player001 L Finger2 1
+    100856: Player001 L Finger21
+    100858: Player001 L Finger21 1
+    100860: Player001 L Finger22
+    100862: Player001 L Finger22 1
+    100864: Player001 L Finger2Nub
+    100866: Player001 L Finger2Nub 1
+    100868: Player001 L Finger3
+    100870: Player001 L Finger3 1
+    100872: Player001 L Finger31
+    100874: Player001 L Finger31 1
+    100876: Player001 L Finger32
+    100878: Player001 L Finger32 1
+    100880: Player001 L Finger3Nub
+    100882: Player001 L Finger3Nub 1
+    100884: Player001 L Finger4
+    100886: Player001 L Finger4 1
+    100888: Player001 L Finger41
+    100890: Player001 L Finger41 1
+    100892: Player001 L Finger42
+    100894: Player001 L Finger42 1
+    100896: Player001 L Finger4Nub
+    100898: Player001 L Finger4Nub 1
+    100900: Player001 L Foot
+    100902: Player001 L Foot 1
+    100904: Player001 L Forearm
+    100906: Player001 L Forearm 1
+    100908: Player001 L Hand
+    100910: Player001 L Hand 1
+    100912: Player001 L Thigh
+    100914: Player001 L Thigh 1
+    100916: Player001 L Toe0
+    100918: Player001 L Toe0 1
+    100920: Player001 L Toe01
+    100922: Player001 L Toe01 1
+    100924: Player001 L Toe02
+    100926: Player001 L Toe02 1
+    100928: Player001 L Toe0Nub
+    100930: Player001 L Toe0Nub 1
+    100932: Player001 L Toe1
+    100934: Player001 L Toe1 1
+    100936: Player001 L Toe11
+    100938: Player001 L Toe11 1
+    100940: Player001 L Toe12
+    100942: Player001 L Toe12 1
+    100944: Player001 L Toe1Nub
+    100946: Player001 L Toe1Nub 1
+    100948: Player001 L Toe2
+    100950: Player001 L Toe2 1
+    100952: Player001 L Toe21
+    100954: Player001 L Toe21 1
+    100956: Player001 L Toe22
+    100958: Player001 L Toe22 1
+    100960: Player001 L Toe2Nub
+    100962: Player001 L Toe2Nub 1
+    100964: Player001 L Toe3
+    100966: Player001 L Toe3 1
+    100968: Player001 L Toe31
+    100970: Player001 L Toe31 1
+    100972: Player001 L Toe32
+    100974: Player001 L Toe32 1
+    100976: Player001 L Toe3Nub
+    100978: Player001 L Toe3Nub 1
+    100980: Player001 L Toe4
+    100982: Player001 L Toe4 1
+    100984: Player001 L Toe41
+    100986: Player001 L Toe41 1
+    100988: Player001 L Toe42
+    100990: Player001 L Toe42 1
+    100992: Player001 L Toe4Nub
+    100994: Player001 L Toe4Nub 1
+    100996: Player001 L UpperArm
+    100998: Player001 L UpperArm 1
+    101000: Player001 Neck
+    101002: Player001 Neck 1
+    101004: Player001 Pelvis
+    101006: Player001 Pelvis 1
+    101008: Player001 R Calf
+    101010: Player001 R Calf 1
+    101012: Player001 R Clavicle
+    101014: Player001 R Clavicle 1
+    101016: Player001 R Finger0
+    101018: Player001 R Finger0 1
+    101020: Player001 R Finger01
+    101022: Player001 R Finger01 1
+    101024: Player001 R Finger02
+    101026: Player001 R Finger02 1
+    101028: Player001 R Finger0Nub
+    101030: Player001 R Finger0Nub 1
+    101032: Player001 R Finger1
+    101034: Player001 R Finger1 1
+    101036: Player001 R Finger11
+    101038: Player001 R Finger11 1
+    101040: Player001 R Finger12
+    101042: Player001 R Finger12 1
+    101044: Player001 R Finger1Nub
+    101046: Player001 R Finger1Nub 1
+    101048: Player001 R Finger2
+    101050: Player001 R Finger2 1
+    101052: Player001 R Finger21
+    101054: Player001 R Finger21 1
+    101056: Player001 R Finger22
+    101058: Player001 R Finger22 1
+    101060: Player001 R Finger2Nub
+    101062: Player001 R Finger2Nub 1
+    101064: Player001 R Finger3
+    101066: Player001 R Finger3 1
+    101068: Player001 R Finger31
+    101070: Player001 R Finger31 1
+    101072: Player001 R Finger32
+    101074: Player001 R Finger32 1
+    101076: Player001 R Finger3Nub
+    101078: Player001 R Finger3Nub 1
+    101080: Player001 R Finger4
+    101082: Player001 R Finger4 1
+    101084: Player001 R Finger41
+    101086: Player001 R Finger41 1
+    101088: Player001 R Finger42
+    101090: Player001 R Finger42 1
+    101092: Player001 R Finger4Nub
+    101094: Player001 R Finger4Nub 1
+    101096: Player001 R Foot
+    101098: Player001 R Foot 1
+    101100: Player001 R Forearm
+    101102: Player001 R Forearm 1
+    101104: Player001 R Hand
+    101106: Player001 R Hand 1
+    101108: Player001 R Thigh
+    101110: Player001 R Thigh 1
+    101112: Player001 R Toe0
+    101114: Player001 R Toe0 1
+    101116: Player001 R Toe01
+    101118: Player001 R Toe01 1
+    101120: Player001 R Toe02
+    101122: Player001 R Toe02 1
+    101124: Player001 R Toe0Nub
+    101126: Player001 R Toe0Nub 1
+    101128: Player001 R Toe1
+    101130: Player001 R Toe1 1
+    101132: Player001 R Toe11
+    101134: Player001 R Toe11 1
+    101136: Player001 R Toe12
+    101138: Player001 R Toe12 1
+    101140: Player001 R Toe1Nub
+    101142: Player001 R Toe1Nub 1
+    101144: Player001 R Toe2
+    101146: Player001 R Toe2 1
+    101148: Player001 R Toe21
+    101150: Player001 R Toe21 1
+    101152: Player001 R Toe22
+    101154: Player001 R Toe22 1
+    101156: Player001 R Toe2Nub
+    101158: Player001 R Toe2Nub 1
+    101160: Player001 R Toe3
+    101162: Player001 R Toe3 1
+    101164: Player001 R Toe31
+    101166: Player001 R Toe31 1
+    101168: Player001 R Toe32
+    101170: Player001 R Toe32 1
+    101172: Player001 R Toe3Nub
+    101174: Player001 R Toe3Nub 1
+    101176: Player001 R Toe4
+    101178: Player001 R Toe4 1
+    101180: Player001 R Toe41
+    101182: Player001 R Toe41 1
+    101184: Player001 R Toe42
+    101186: Player001 R Toe42 1
+    101188: Player001 R Toe4Nub
+    101190: Player001 R Toe4Nub 1
+    101192: Player001 R UpperArm
+    101194: Player001 R UpperArm 1
+    101196: Player001 Spine
+    101198: Player001 Spine 1
+    101200: Player001 Spine1
+    101202: Player001 Spine1 1
+    101204: Player001 Spine2
+    101206: Player001 Spine2 1
+    101208: Player001 Spine3
+    101210: Player001 Spine3 1
+    101212: Player002 Footsteps
+    101214: Player002 Head
+    101216: Player002 HeadNub
+    101218: Player002 L Calf
+    101220: Player002 L Clavicle
+    101222: Player002 L Finger0
+    101224: Player002 L Finger01
+    101226: Player002 L Finger02
+    101228: Player002 L Finger0Nub
+    101230: Player002 L Finger1
+    101232: Player002 L Finger11
+    101234: Player002 L Finger12
+    101236: Player002 L Finger1Nub
+    101238: Player002 L Finger2
+    101240: Player002 L Finger21
+    101242: Player002 L Finger22
+    101244: Player002 L Finger2Nub
+    101246: Player002 L Finger3
+    101248: Player002 L Finger31
+    101250: Player002 L Finger32
+    101252: Player002 L Finger3Nub
+    101254: Player002 L Finger4
+    101256: Player002 L Finger41
+    101258: Player002 L Finger42
+    101260: Player002 L Finger4Nub
+    101262: Player002 L Foot
+    101264: Player002 L Forearm
+    101266: Player002 L Hand
+    101268: Player002 L Thigh
+    101270: Player002 L Toe0
+    101272: Player002 L Toe01
+    101274: Player002 L Toe02
+    101276: Player002 L Toe0Nub
+    101278: Player002 L Toe1
+    101280: Player002 L Toe11
+    101282: Player002 L Toe12
+    101284: Player002 L Toe1Nub
+    101286: Player002 L Toe2
+    101288: Player002 L Toe21
+    101290: Player002 L Toe22
+    101292: Player002 L Toe2Nub
+    101294: Player002 L Toe3
+    101296: Player002 L Toe31
+    101298: Player002 L Toe32
+    101300: Player002 L Toe3Nub
+    101302: Player002 L Toe4
+    101304: Player002 L Toe41
+    101306: Player002 L Toe42
+    101308: Player002 L Toe4Nub
+    101310: Player002 L UpperArm
+    101312: Player002 Neck
+    101314: Player002 Pelvis
+    101316: Player002 R Calf
+    101318: Player002 R Clavicle
+    101320: Player002 R Finger0
+    101322: Player002 R Finger01
+    101324: Player002 R Finger02
+    101326: Player002 R Finger0Nub
+    101328: Player002 R Finger1
+    101330: Player002 R Finger11
+    101332: Player002 R Finger12
+    101334: Player002 R Finger1Nub
+    101336: Player002 R Finger2
+    101338: Player002 R Finger21
+    101340: Player002 R Finger22
+    101342: Player002 R Finger2Nub
+    101344: Player002 R Finger3
+    101346: Player002 R Finger31
+    101348: Player002 R Finger32
+    101350: Player002 R Finger3Nub
+    101352: Player002 R Finger4
+    101354: Player002 R Finger41
+    101356: Player002 R Finger42
+    101358: Player002 R Finger4Nub
+    101360: Player002 R Foot
+    101362: Player002 R Forearm
+    101364: Player002 R Hand
+    101366: Player002 R Thigh
+    101368: Player002 R Toe0
+    101370: Player002 R Toe01
+    101372: Player002 R Toe02
+    101374: Player002 R Toe0Nub
+    101376: Player002 R Toe1
+    101378: Player002 R Toe11
+    101380: Player002 R Toe12
+    101382: Player002 R Toe1Nub
+    101384: Player002 R Toe2
+    101386: Player002 R Toe21
+    101388: Player002 R Toe22
+    101390: Player002 R Toe2Nub
+    101392: Player002 R Toe3
+    101394: Player002 R Toe31
+    101396: Player002 R Toe32
+    101398: Player002 R Toe3Nub
+    101400: Player002 R Toe4
+    101402: Player002 R Toe41
+    101404: Player002 R Toe42
+    101406: Player002 R Toe4Nub
+    101408: Player002 R UpperArm
+    101410: Player002 Spine
+    101412: Player002 Spine1
+    101414: Player002 Spine2
+    101416: Player002 Spine3
+    101418: Player003 Footsteps
+    101420: Player003 Head
+    101422: Player003 HeadNub
+    101424: Player003 L Calf
+    101426: Player003 L Clavicle
+    101428: Player003 L Finger0
+    101430: Player003 L Finger01
+    101432: Player003 L Finger02
+    101434: Player003 L Finger0Nub
+    101436: Player003 L Finger1
+    101438: Player003 L Finger11
+    101440: Player003 L Finger12
+    101442: Player003 L Finger1Nub
+    101444: Player003 L Finger2
+    101446: Player003 L Finger21
+    101448: Player003 L Finger22
+    101450: Player003 L Finger2Nub
+    101452: Player003 L Finger3
+    101454: Player003 L Finger31
+    101456: Player003 L Finger32
+    101458: Player003 L Finger3Nub
+    101460: Player003 L Finger4
+    101462: Player003 L Finger41
+    101464: Player003 L Finger42
+    101466: Player003 L Finger4Nub
+    101468: Player003 L Foot
+    101470: Player003 L Forearm
+    101472: Player003 L Hand
+    101474: Player003 L Thigh
+    101476: Player003 L Toe0
+    101478: Player003 L Toe01
+    101480: Player003 L Toe02
+    101482: Player003 L Toe0Nub
+    101484: Player003 L Toe1
+    101486: Player003 L Toe11
+    101488: Player003 L Toe12
+    101490: Player003 L Toe1Nub
+    101492: Player003 L Toe2
+    101494: Player003 L Toe21
+    101496: Player003 L Toe22
+    101498: Player003 L Toe2Nub
+    101500: Player003 L Toe3
+    101502: Player003 L Toe31
+    101504: Player003 L Toe32
+    101506: Player003 L Toe3Nub
+    101508: Player003 L Toe4
+    101510: Player003 L Toe41
+    101512: Player003 L Toe42
+    101514: Player003 L Toe4Nub
+    101516: Player003 L UpperArm
+    101518: Player003 Neck
+    101520: Player003 Pelvis
+    101522: Player003 R Calf
+    101524: Player003 R Clavicle
+    101526: Player003 R Finger0
+    101528: Player003 R Finger01
+    101530: Player003 R Finger02
+    101532: Player003 R Finger0Nub
+    101534: Player003 R Finger1
+    101536: Player003 R Finger11
+    101538: Player003 R Finger12
+    101540: Player003 R Finger1Nub
+    101542: Player003 R Finger2
+    101544: Player003 R Finger21
+    101546: Player003 R Finger22
+    101548: Player003 R Finger2Nub
+    101550: Player003 R Finger3
+    101552: Player003 R Finger31
+    101554: Player003 R Finger32
+    101556: Player003 R Finger3Nub
+    101558: Player003 R Finger4
+    101560: Player003 R Finger41
+    101562: Player003 R Finger42
+    101564: Player003 R Finger4Nub
+    101566: Player003 R Foot
+    101568: Player003 R Forearm
+    101570: Player003 R Hand
+    101572: Player003 R Thigh
+    101574: Player003 R Toe0
+    101576: Player003 R Toe01
+    101578: Player003 R Toe02
+    101580: Player003 R Toe0Nub
+    101582: Player003 R Toe1
+    101584: Player003 R Toe11
+    101586: Player003 R Toe12
+    101588: Player003 R Toe1Nub
+    101590: Player003 R Toe2
+    101592: Player003 R Toe21
+    101594: Player003 R Toe22
+    101596: Player003 R Toe2Nub
+    101598: Player003 R Toe3
+    101600: Player003 R Toe31
+    101602: Player003 R Toe32
+    101604: Player003 R Toe3Nub
+    101606: Player003 R Toe4
+    101608: Player003 R Toe41
+    101610: Player003 R Toe42
+    101612: Player003 R Toe4Nub
+    101614: Player003 R UpperArm
+    101616: Player003 Spine
+    101618: Player003 Spine1
+    101620: Player003 Spine2
+    101622: Player003 Spine3
+    101624: Projector
+    101626: Roof
+    101628: T-Chalk001
+    101630: T-Chalk002
+    101632: T-Eraser
+    101634: T_Table
+    101636: Table-00
+    101638: Table-01
+    101640: Table-02
+    101642: Table-03
+    101644: Table-04
+    101646: Table-05
+    101648: Tables
+    101650: Windows
+    101652: "\u5BF9\u8C61015"
+    101654: "\u5BF9\u8C61016"
+    101656: "\u5BF9\u8C61017"
+    400000: //RootNode
+    400002: Bip001 Footsteps
+    400004: Bip001 Head
+    400006: Bip001 HeadNub
+    400008: Bip001 L Calf
+    400010: Bip001 L Clavicle
+    400012: Bip001 L Finger0
+    400014: Bip001 L Finger01
+    400016: Bip001 L Finger02
+    400018: Bip001 L Finger0Nub
+    400020: Bip001 L Finger1
+    400022: Bip001 L Finger11
+    400024: Bip001 L Finger12
+    400026: Bip001 L Finger1Nub
+    400028: Bip001 L Finger2
+    400030: Bip001 L Finger21
+    400032: Bip001 L Finger22
+    400034: Bip001 L Finger2Nub
+    400036: Bip001 L Finger3
+    400038: Bip001 L Finger31
+    400040: Bip001 L Finger32
+    400042: Bip001 L Finger3Nub
+    400044: Bip001 L Finger4
+    400046: Bip001 L Finger41
+    400048: Bip001 L Finger42
+    400050: Bip001 L Finger4Nub
+    400052: Bip001 L Foot
+    400054: Bip001 L Forearm
+    400056: Bip001 L Hand
+    400058: Bip001 L Thigh
+    400060: Bip001 L Toe0
+    400062: Bip001 L Toe01
+    400064: Bip001 L Toe02
+    400066: Bip001 L Toe0Nub
+    400068: Bip001 L Toe1
+    400070: Bip001 L Toe11
+    400072: Bip001 L Toe12
+    400074: Bip001 L Toe1Nub
+    400076: Bip001 L Toe2
+    400078: Bip001 L Toe21
+    400080: Bip001 L Toe22
+    400082: Bip001 L Toe2Nub
+    400084: Bip001 L Toe3
+    400086: Bip001 L Toe31
+    400088: Bip001 L Toe32
+    400090: Bip001 L Toe3Nub
+    400092: Bip001 L Toe4
+    400094: Bip001 L Toe41
+    400096: Bip001 L Toe42
+    400098: Bip001 L Toe4Nub
+    400100: Bip001 L UpperArm
+    400102: Bip001 Neck
+    400104: Bip001 Pelvis
+    400106: Bip001 R Calf
+    400108: Bip001 R Clavicle
+    400110: Bip001 R Finger0
+    400112: Bip001 R Finger01
+    400114: Bip001 R Finger02
+    400116: Bip001 R Finger0Nub
+    400118: Bip001 R Finger1
+    400120: Bip001 R Finger11
+    400122: Bip001 R Finger12
+    400124: Bip001 R Finger1Nub
+    400126: Bip001 R Finger2
+    400128: Bip001 R Finger21
+    400130: Bip001 R Finger22
+    400132: Bip001 R Finger2Nub
+    400134: Bip001 R Finger3
+    400136: Bip001 R Finger31
+    400138: Bip001 R Finger32
+    400140: Bip001 R Finger3Nub
+    400142: Bip001 R Finger4
+    400144: Bip001 R Finger41
+    400146: Bip001 R Finger42
+    400148: Bip001 R Finger4Nub
+    400150: Bip001 R Foot
+    400152: Bip001 R Forearm
+    400154: Bip001 R Hand
+    400156: Bip001 R Thigh
+    400158: Bip001 R Toe0
+    400160: Bip001 R Toe01
+    400162: Bip001 R Toe02
+    400164: Bip001 R Toe0Nub
+    400166: Bip001 R Toe1
+    400168: Bip001 R Toe11
+    400170: Bip001 R Toe12
+    400172: Bip001 R Toe1Nub
+    400174: Bip001 R Toe2
+    400176: Bip001 R Toe21
+    400178: Bip001 R Toe22
+    400180: Bip001 R Toe2Nub
+    400182: Bip001 R Toe3
+    400184: Bip001 R Toe31
+    400186: Bip001 R Toe32
+    400188: Bip001 R Toe3Nub
+    400190: Bip001 R Toe4
+    400192: Bip001 R Toe41
+    400194: Bip001 R Toe42
+    400196: Bip001 R Toe4Nub
+    400198: Bip001 R UpperArm
+    400200: Bip001 Spine
+    400202: Bip001 Spine1
+    400204: Bip001 Spine2
+    400206: Bip001 Spine3
+    400208: Blackboard
+    400210: Book-Close
+    400212: Book-Close001
+    400214: Book-Close002
+    400216: Book-Close003
+    400218: Book-Close004
+    400220: Book-Close005
+    400222: Book-Close006
+    400224: Book-Close007
+    400226: Book-Close008
+    400228: Book-Close009
+    400230: Book-Open
+    400232: Book-Open001
+    400234: Book-Open002
+    400236: Box001
+    400238: Box002
+    400240: Box003
+    400242: Box004
+    400244: Box005
+    400246: Box007
+    400248: Box011
+    400250: Box012
+    400252: Box013
+    400254: Box014
+    400256: Box015
+    400258: Box016
+    400260: Box017
+    400262: Box018
+    400264: Box019
+    400266: camera
+    400268: Camera-P
+    400270: Camera-P.Target
+    400272: Camera.Target
+    400274: Chair-00
+    400276: Chair-01
+    400278: Chair-02
+    400280: Chair-03
+    400282: Chair-04
+    400284: Chair-05
+    400286: Chairs
+    400288: ClassRoom
+    400290: Classroom
+    400292: Computer
+    400294: Cylinder001
+    400296: Cylinder004
+    400298: Cylinder005
+    400300: Cylinder006
+    400302: Cylinder007
+    400304: Cylinder008
+    400306: Cylinder009
+    400308: Cylinder010
+    400310: Door
+    400312: Door-F
+    400314: Dreamer
+    400316: Dreamer-D
+    400318: Dreamer-D 1
+    400320: Dreamer-D001
+    400322: Eraser
+    400324: Eraser001
+    400326: Eraser002
+    400328: Hose001
+    400330: Hose002
+    400332: Hose003
+    400334: Hose004
+    400336: Hose005
+    400338: Hose006
+    400340: Light
+    400342: NPC-Left_Back
+    400344: NPC-Left_Back001 Footsteps
+    400346: NPC-Left_Back001 Head
+    400348: NPC-Left_Back001 HeadNub
+    400350: NPC-Left_Back001 L Calf
+    400352: NPC-Left_Back001 L Clavicle
+    400354: NPC-Left_Back001 L Finger0
+    400356: NPC-Left_Back001 L Finger01
+    400358: NPC-Left_Back001 L Finger02
+    400360: NPC-Left_Back001 L Finger0Nub
+    400362: NPC-Left_Back001 L Finger1
+    400364: NPC-Left_Back001 L Finger11
+    400366: NPC-Left_Back001 L Finger12
+    400368: NPC-Left_Back001 L Finger1Nub
+    400370: NPC-Left_Back001 L Finger2
+    400372: NPC-Left_Back001 L Finger21
+    400374: NPC-Left_Back001 L Finger22
+    400376: NPC-Left_Back001 L Finger2Nub
+    400378: NPC-Left_Back001 L Finger3
+    400380: NPC-Left_Back001 L Finger31
+    400382: NPC-Left_Back001 L Finger32
+    400384: NPC-Left_Back001 L Finger3Nub
+    400386: NPC-Left_Back001 L Finger4
+    400388: NPC-Left_Back001 L Finger41
+    400390: NPC-Left_Back001 L Finger42
+    400392: NPC-Left_Back001 L Finger4Nub
+    400394: NPC-Left_Back001 L Foot
+    400396: NPC-Left_Back001 L Forearm
+    400398: NPC-Left_Back001 L Hand
+    400400: NPC-Left_Back001 L Thigh
+    400402: NPC-Left_Back001 L Toe0
+    400404: NPC-Left_Back001 L Toe01
+    400406: NPC-Left_Back001 L Toe02
+    400408: NPC-Left_Back001 L Toe0Nub
+    400410: NPC-Left_Back001 L Toe1
+    400412: NPC-Left_Back001 L Toe11
+    400414: NPC-Left_Back001 L Toe12
+    400416: NPC-Left_Back001 L Toe1Nub
+    400418: NPC-Left_Back001 L Toe2
+    400420: NPC-Left_Back001 L Toe21
+    400422: NPC-Left_Back001 L Toe22
+    400424: NPC-Left_Back001 L Toe2Nub
+    400426: NPC-Left_Back001 L Toe3
+    400428: NPC-Left_Back001 L Toe31
+    400430: NPC-Left_Back001 L Toe32
+    400432: NPC-Left_Back001 L Toe3Nub
+    400434: NPC-Left_Back001 L Toe4
+    400436: NPC-Left_Back001 L Toe41
+    400438: NPC-Left_Back001 L Toe42
+    400440: NPC-Left_Back001 L Toe4Nub
+    400442: NPC-Left_Back001 L UpperArm
+    400444: NPC-Left_Back001 Neck
+    400446: NPC-Left_Back001 Pelvis
+    400448: NPC-Left_Back001 R Calf
+    400450: NPC-Left_Back001 R Clavicle
+    400452: NPC-Left_Back001 R Finger0
+    400454: NPC-Left_Back001 R Finger01
+    400456: NPC-Left_Back001 R Finger02
+    400458: NPC-Left_Back001 R Finger0Nub
+    400460: NPC-Left_Back001 R Finger1
+    400462: NPC-Left_Back001 R Finger11
+    400464: NPC-Left_Back001 R Finger12
+    400466: NPC-Left_Back001 R Finger1Nub
+    400468: NPC-Left_Back001 R Finger2
+    400470: NPC-Left_Back001 R Finger21
+    400472: NPC-Left_Back001 R Finger22
+    400474: NPC-Left_Back001 R Finger2Nub
+    400476: NPC-Left_Back001 R Finger3
+    400478: NPC-Left_Back001 R Finger31
+    400480: NPC-Left_Back001 R Finger32
+    400482: NPC-Left_Back001 R Finger3Nub
+    400484: NPC-Left_Back001 R Finger4
+    400486: NPC-Left_Back001 R Finger41
+    400488: NPC-Left_Back001 R Finger42
+    400490: NPC-Left_Back001 R Finger4Nub
+    400492: NPC-Left_Back001 R Foot
+    400494: NPC-Left_Back001 R Forearm
+    400496: NPC-Left_Back001 R Hand
+    400498: NPC-Left_Back001 R Thigh
+    400500: NPC-Left_Back001 R Toe0
+    400502: NPC-Left_Back001 R Toe01
+    400504: NPC-Left_Back001 R Toe02
+    400506: NPC-Left_Back001 R Toe0Nub
+    400508: NPC-Left_Back001 R Toe1
+    400510: NPC-Left_Back001 R Toe11
+    400512: NPC-Left_Back001 R Toe12
+    400514: NPC-Left_Back001 R Toe1Nub
+    400516: NPC-Left_Back001 R Toe2
+    400518: NPC-Left_Back001 R Toe21
+    400520: NPC-Left_Back001 R Toe22
+    400522: NPC-Left_Back001 R Toe2Nub
+    400524: NPC-Left_Back001 R Toe3
+    400526: NPC-Left_Back001 R Toe31
+    400528: NPC-Left_Back001 R Toe32
+    400530: NPC-Left_Back001 R Toe3Nub
+    400532: NPC-Left_Back001 R Toe4
+    400534: NPC-Left_Back001 R Toe41
+    400536: NPC-Left_Back001 R Toe42
+    400538: NPC-Left_Back001 R Toe4Nub
+    400540: NPC-Left_Back001 R UpperArm
+    400542: NPC-Left_Back001 Spine
+    400544: NPC-Left_Back001 Spine1
+    400546: NPC-Left_Back001 Spine2
+    400548: NPC-Left_Back001 Spine3
+    400550: NPC-Left_Front
+    400552: NPC-Left_Front 1
+    400554: NPC-Left_Front 2
+    400556: NPC-Right_Back
+    400558: NPC-Right_Back 1
+    400560: NPC-Right_Back001 Footsteps
+    400562: NPC-Right_Back001 Head
+    400564: NPC-Right_Back001 HeadNub
+    400566: NPC-Right_Back001 L Calf
+    400568: NPC-Right_Back001 L Clavicle
+    400570: NPC-Right_Back001 L Finger0
+    400572: NPC-Right_Back001 L Finger01
+    400574: NPC-Right_Back001 L Finger02
+    400576: NPC-Right_Back001 L Finger0Nub
+    400578: NPC-Right_Back001 L Finger1
+    400580: NPC-Right_Back001 L Finger11
+    400582: NPC-Right_Back001 L Finger12
+    400584: NPC-Right_Back001 L Finger1Nub
+    400586: NPC-Right_Back001 L Finger2
+    400588: NPC-Right_Back001 L Finger21
+    400590: NPC-Right_Back001 L Finger22
+    400592: NPC-Right_Back001 L Finger2Nub
+    400594: NPC-Right_Back001 L Finger3
+    400596: NPC-Right_Back001 L Finger31
+    400598: NPC-Right_Back001 L Finger32
+    400600: NPC-Right_Back001 L Finger3Nub
+    400602: NPC-Right_Back001 L Finger4
+    400604: NPC-Right_Back001 L Finger41
+    400606: NPC-Right_Back001 L Finger42
+    400608: NPC-Right_Back001 L Finger4Nub
+    400610: NPC-Right_Back001 L Foot
+    400612: NPC-Right_Back001 L Forearm
+    400614: NPC-Right_Back001 L Hand
+    400616: NPC-Right_Back001 L Thigh
+    400618: NPC-Right_Back001 L Toe0
+    400620: NPC-Right_Back001 L Toe01
+    400622: NPC-Right_Back001 L Toe02
+    400624: NPC-Right_Back001 L Toe0Nub
+    400626: NPC-Right_Back001 L Toe1
+    400628: NPC-Right_Back001 L Toe11
+    400630: NPC-Right_Back001 L Toe12
+    400632: NPC-Right_Back001 L Toe1Nub
+    400634: NPC-Right_Back001 L Toe2
+    400636: NPC-Right_Back001 L Toe21
+    400638: NPC-Right_Back001 L Toe22
+    400640: NPC-Right_Back001 L Toe2Nub
+    400642: NPC-Right_Back001 L Toe3
+    400644: NPC-Right_Back001 L Toe31
+    400646: NPC-Right_Back001 L Toe32
+    400648: NPC-Right_Back001 L Toe3Nub
+    400650: NPC-Right_Back001 L Toe4
+    400652: NPC-Right_Back001 L Toe41
+    400654: NPC-Right_Back001 L Toe42
+    400656: NPC-Right_Back001 L Toe4Nub
+    400658: NPC-Right_Back001 L UpperArm
+    400660: NPC-Right_Back001 Neck
+    400662: NPC-Right_Back001 Pelvis
+    400664: NPC-Right_Back001 R Calf
+    400666: NPC-Right_Back001 R Clavicle
+    400668: NPC-Right_Back001 R Finger0
+    400670: NPC-Right_Back001 R Finger01
+    400672: NPC-Right_Back001 R Finger02
+    400674: NPC-Right_Back001 R Finger0Nub
+    400676: NPC-Right_Back001 R Finger1
+    400678: NPC-Right_Back001 R Finger11
+    400680: NPC-Right_Back001 R Finger12
+    400682: NPC-Right_Back001 R Finger1Nub
+    400684: NPC-Right_Back001 R Finger2
+    400686: NPC-Right_Back001 R Finger21
+    400688: NPC-Right_Back001 R Finger22
+    400690: NPC-Right_Back001 R Finger2Nub
+    400692: NPC-Right_Back001 R Finger3
+    400694: NPC-Right_Back001 R Finger31
+    400696: NPC-Right_Back001 R Finger32
+    400698: NPC-Right_Back001 R Finger3Nub
+    400700: NPC-Right_Back001 R Finger4
+    400702: NPC-Right_Back001 R Finger41
+    400704: NPC-Right_Back001 R Finger42
+    400706: NPC-Right_Back001 R Finger4Nub
+    400708: NPC-Right_Back001 R Foot
+    400710: NPC-Right_Back001 R Forearm
+    400712: NPC-Right_Back001 R Hand
+    400714: NPC-Right_Back001 R Thigh
+    400716: NPC-Right_Back001 R Toe0
+    400718: NPC-Right_Back001 R Toe01
+    400720: NPC-Right_Back001 R Toe02
+    400722: NPC-Right_Back001 R Toe0Nub
+    400724: NPC-Right_Back001 R Toe1
+    400726: NPC-Right_Back001 R Toe11
+    400728: NPC-Right_Back001 R Toe12
+    400730: NPC-Right_Back001 R Toe1Nub
+    400732: NPC-Right_Back001 R Toe2
+    400734: NPC-Right_Back001 R Toe21
+    400736: NPC-Right_Back001 R Toe22
+    400738: NPC-Right_Back001 R Toe2Nub
+    400740: NPC-Right_Back001 R Toe3
+    400742: NPC-Right_Back001 R Toe31
+    400744: NPC-Right_Back001 R Toe32
+    400746: NPC-Right_Back001 R Toe3Nub
+    400748: NPC-Right_Back001 R Toe4
+    400750: NPC-Right_Back001 R Toe41
+    400752: NPC-Right_Back001 R Toe42
+    400754: NPC-Right_Back001 R Toe4Nub
+    400756: NPC-Right_Back001 R UpperArm
+    400758: NPC-Right_Back001 Spine
+    400760: NPC-Right_Back001 Spine1
+    400762: NPC-Right_Back001 Spine2
+    400764: NPC-Right_Back001 Spine3
+    400766: NPC-Right_Front
+    400768: NPC-Right_Front 1
+    400770: NPC-Walk
+    400772: NPC-Walk 1
+    400774: P-Case
+    400776: Pencil
+    400778: Pencil001
+    400780: Pencil002
+    400782: Pencil003
+    400784: Pencil004
+    400786: Pencil005
+    400788: Pencil006
+    400790: Plane001
+    400792: Player
+    400794: Player 1
+    400796: PLayer-FPS
+    400798: Player-FPS
+    400800: Player001 Footsteps
+    400802: Player001 Footsteps 1
+    400804: Player001 Head
+    400806: Player001 Head 1
+    400808: Player001 HeadNub
+    400810: Player001 HeadNub 1
+    400812: Player001 L Calf
+    400814: Player001 L Calf 1
+    400816: Player001 L Clavicle
+    400818: Player001 L Clavicle 1
+    400820: Player001 L Finger0
+    400822: Player001 L Finger0 1
+    400824: Player001 L Finger01
+    400826: Player001 L Finger01 1
+    400828: Player001 L Finger02
+    400830: Player001 L Finger02 1
+    400832: Player001 L Finger0Nub
+    400834: Player001 L Finger0Nub 1
+    400836: Player001 L Finger1
+    400838: Player001 L Finger1 1
+    400840: Player001 L Finger11
+    400842: Player001 L Finger11 1
+    400844: Player001 L Finger12
+    400846: Player001 L Finger12 1
+    400848: Player001 L Finger1Nub
+    400850: Player001 L Finger1Nub 1
+    400852: Player001 L Finger2
+    400854: Player001 L Finger2 1
+    400856: Player001 L Finger21
+    400858: Player001 L Finger21 1
+    400860: Player001 L Finger22
+    400862: Player001 L Finger22 1
+    400864: Player001 L Finger2Nub
+    400866: Player001 L Finger2Nub 1
+    400868: Player001 L Finger3
+    400870: Player001 L Finger3 1
+    400872: Player001 L Finger31
+    400874: Player001 L Finger31 1
+    400876: Player001 L Finger32
+    400878: Player001 L Finger32 1
+    400880: Player001 L Finger3Nub
+    400882: Player001 L Finger3Nub 1
+    400884: Player001 L Finger4
+    400886: Player001 L Finger4 1
+    400888: Player001 L Finger41
+    400890: Player001 L Finger41 1
+    400892: Player001 L Finger42
+    400894: Player001 L Finger42 1
+    400896: Player001 L Finger4Nub
+    400898: Player001 L Finger4Nub 1
+    400900: Player001 L Foot
+    400902: Player001 L Foot 1
+    400904: Player001 L Forearm
+    400906: Player001 L Forearm 1
+    400908: Player001 L Hand
+    400910: Player001 L Hand 1
+    400912: Player001 L Thigh
+    400914: Player001 L Thigh 1
+    400916: Player001 L Toe0
+    400918: Player001 L Toe0 1
+    400920: Player001 L Toe01
+    400922: Player001 L Toe01 1
+    400924: Player001 L Toe02
+    400926: Player001 L Toe02 1
+    400928: Player001 L Toe0Nub
+    400930: Player001 L Toe0Nub 1
+    400932: Player001 L Toe1
+    400934: Player001 L Toe1 1
+    400936: Player001 L Toe11
+    400938: Player001 L Toe11 1
+    400940: Player001 L Toe12
+    400942: Player001 L Toe12 1
+    400944: Player001 L Toe1Nub
+    400946: Player001 L Toe1Nub 1
+    400948: Player001 L Toe2
+    400950: Player001 L Toe2 1
+    400952: Player001 L Toe21
+    400954: Player001 L Toe21 1
+    400956: Player001 L Toe22
+    400958: Player001 L Toe22 1
+    400960: Player001 L Toe2Nub
+    400962: Player001 L Toe2Nub 1
+    400964: Player001 L Toe3
+    400966: Player001 L Toe3 1
+    400968: Player001 L Toe31
+    400970: Player001 L Toe31 1
+    400972: Player001 L Toe32
+    400974: Player001 L Toe32 1
+    400976: Player001 L Toe3Nub
+    400978: Player001 L Toe3Nub 1
+    400980: Player001 L Toe4
+    400982: Player001 L Toe4 1
+    400984: Player001 L Toe41
+    400986: Player001 L Toe41 1
+    400988: Player001 L Toe42
+    400990: Player001 L Toe42 1
+    400992: Player001 L Toe4Nub
+    400994: Player001 L Toe4Nub 1
+    400996: Player001 L UpperArm
+    400998: Player001 L UpperArm 1
+    401000: Player001 Neck
+    401002: Player001 Neck 1
+    401004: Player001 Pelvis
+    401006: Player001 Pelvis 1
+    401008: Player001 R Calf
+    401010: Player001 R Calf 1
+    401012: Player001 R Clavicle
+    401014: Player001 R Clavicle 1
+    401016: Player001 R Finger0
+    401018: Player001 R Finger0 1
+    401020: Player001 R Finger01
+    401022: Player001 R Finger01 1
+    401024: Player001 R Finger02
+    401026: Player001 R Finger02 1
+    401028: Player001 R Finger0Nub
+    401030: Player001 R Finger0Nub 1
+    401032: Player001 R Finger1
+    401034: Player001 R Finger1 1
+    401036: Player001 R Finger11
+    401038: Player001 R Finger11 1
+    401040: Player001 R Finger12
+    401042: Player001 R Finger12 1
+    401044: Player001 R Finger1Nub
+    401046: Player001 R Finger1Nub 1
+    401048: Player001 R Finger2
+    401050: Player001 R Finger2 1
+    401052: Player001 R Finger21
+    401054: Player001 R Finger21 1
+    401056: Player001 R Finger22
+    401058: Player001 R Finger22 1
+    401060: Player001 R Finger2Nub
+    401062: Player001 R Finger2Nub 1
+    401064: Player001 R Finger3
+    401066: Player001 R Finger3 1
+    401068: Player001 R Finger31
+    401070: Player001 R Finger31 1
+    401072: Player001 R Finger32
+    401074: Player001 R Finger32 1
+    401076: Player001 R Finger3Nub
+    401078: Player001 R Finger3Nub 1
+    401080: Player001 R Finger4
+    401082: Player001 R Finger4 1
+    401084: Player001 R Finger41
+    401086: Player001 R Finger41 1
+    401088: Player001 R Finger42
+    401090: Player001 R Finger42 1
+    401092: Player001 R Finger4Nub
+    401094: Player001 R Finger4Nub 1
+    401096: Player001 R Foot
+    401098: Player001 R Foot 1
+    401100: Player001 R Forearm
+    401102: Player001 R Forearm 1
+    401104: Player001 R Hand
+    401106: Player001 R Hand 1
+    401108: Player001 R Thigh
+    401110: Player001 R Thigh 1
+    401112: Player001 R Toe0
+    401114: Player001 R Toe0 1
+    401116: Player001 R Toe01
+    401118: Player001 R Toe01 1
+    401120: Player001 R Toe02
+    401122: Player001 R Toe02 1
+    401124: Player001 R Toe0Nub
+    401126: Player001 R Toe0Nub 1
+    401128: Player001 R Toe1
+    401130: Player001 R Toe1 1
+    401132: Player001 R Toe11
+    401134: Player001 R Toe11 1
+    401136: Player001 R Toe12
+    401138: Player001 R Toe12 1
+    401140: Player001 R Toe1Nub
+    401142: Player001 R Toe1Nub 1
+    401144: Player001 R Toe2
+    401146: Player001 R Toe2 1
+    401148: Player001 R Toe21
+    401150: Player001 R Toe21 1
+    401152: Player001 R Toe22
+    401154: Player001 R Toe22 1
+    401156: Player001 R Toe2Nub
+    401158: Player001 R Toe2Nub 1
+    401160: Player001 R Toe3
+    401162: Player001 R Toe3 1
+    401164: Player001 R Toe31
+    401166: Player001 R Toe31 1
+    401168: Player001 R Toe32
+    401170: Player001 R Toe32 1
+    401172: Player001 R Toe3Nub
+    401174: Player001 R Toe3Nub 1
+    401176: Player001 R Toe4
+    401178: Player001 R Toe4 1
+    401180: Player001 R Toe41
+    401182: Player001 R Toe41 1
+    401184: Player001 R Toe42
+    401186: Player001 R Toe42 1
+    401188: Player001 R Toe4Nub
+    401190: Player001 R Toe4Nub 1
+    401192: Player001 R UpperArm
+    401194: Player001 R UpperArm 1
+    401196: Player001 Spine
+    401198: Player001 Spine 1
+    401200: Player001 Spine1
+    401202: Player001 Spine1 1
+    401204: Player001 Spine2
+    401206: Player001 Spine2 1
+    401208: Player001 Spine3
+    401210: Player001 Spine3 1
+    401212: Player002 Footsteps
+    401214: Player002 Head
+    401216: Player002 HeadNub
+    401218: Player002 L Calf
+    401220: Player002 L Clavicle
+    401222: Player002 L Finger0
+    401224: Player002 L Finger01
+    401226: Player002 L Finger02
+    401228: Player002 L Finger0Nub
+    401230: Player002 L Finger1
+    401232: Player002 L Finger11
+    401234: Player002 L Finger12
+    401236: Player002 L Finger1Nub
+    401238: Player002 L Finger2
+    401240: Player002 L Finger21
+    401242: Player002 L Finger22
+    401244: Player002 L Finger2Nub
+    401246: Player002 L Finger3
+    401248: Player002 L Finger31
+    401250: Player002 L Finger32
+    401252: Player002 L Finger3Nub
+    401254: Player002 L Finger4
+    401256: Player002 L Finger41
+    401258: Player002 L Finger42
+    401260: Player002 L Finger4Nub
+    401262: Player002 L Foot
+    401264: Player002 L Forearm
+    401266: Player002 L Hand
+    401268: Player002 L Thigh
+    401270: Player002 L Toe0
+    401272: Player002 L Toe01
+    401274: Player002 L Toe02
+    401276: Player002 L Toe0Nub
+    401278: Player002 L Toe1
+    401280: Player002 L Toe11
+    401282: Player002 L Toe12
+    401284: Player002 L Toe1Nub
+    401286: Player002 L Toe2
+    401288: Player002 L Toe21
+    401290: Player002 L Toe22
+    401292: Player002 L Toe2Nub
+    401294: Player002 L Toe3
+    401296: Player002 L Toe31
+    401298: Player002 L Toe32
+    401300: Player002 L Toe3Nub
+    401302: Player002 L Toe4
+    401304: Player002 L Toe41
+    401306: Player002 L Toe42
+    401308: Player002 L Toe4Nub
+    401310: Player002 L UpperArm
+    401312: Player002 Neck
+    401314: Player002 Pelvis
+    401316: Player002 R Calf
+    401318: Player002 R Clavicle
+    401320: Player002 R Finger0
+    401322: Player002 R Finger01
+    401324: Player002 R Finger02
+    401326: Player002 R Finger0Nub
+    401328: Player002 R Finger1
+    401330: Player002 R Finger11
+    401332: Player002 R Finger12
+    401334: Player002 R Finger1Nub
+    401336: Player002 R Finger2
+    401338: Player002 R Finger21
+    401340: Player002 R Finger22
+    401342: Player002 R Finger2Nub
+    401344: Player002 R Finger3
+    401346: Player002 R Finger31
+    401348: Player002 R Finger32
+    401350: Player002 R Finger3Nub
+    401352: Player002 R Finger4
+    401354: Player002 R Finger41
+    401356: Player002 R Finger42
+    401358: Player002 R Finger4Nub
+    401360: Player002 R Foot
+    401362: Player002 R Forearm
+    401364: Player002 R Hand
+    401366: Player002 R Thigh
+    401368: Player002 R Toe0
+    401370: Player002 R Toe01
+    401372: Player002 R Toe02
+    401374: Player002 R Toe0Nub
+    401376: Player002 R Toe1
+    401378: Player002 R Toe11
+    401380: Player002 R Toe12
+    401382: Player002 R Toe1Nub
+    401384: Player002 R Toe2
+    401386: Player002 R Toe21
+    401388: Player002 R Toe22
+    401390: Player002 R Toe2Nub
+    401392: Player002 R Toe3
+    401394: Player002 R Toe31
+    401396: Player002 R Toe32
+    401398: Player002 R Toe3Nub
+    401400: Player002 R Toe4
+    401402: Player002 R Toe41
+    401404: Player002 R Toe42
+    401406: Player002 R Toe4Nub
+    401408: Player002 R UpperArm
+    401410: Player002 Spine
+    401412: Player002 Spine1
+    401414: Player002 Spine2
+    401416: Player002 Spine3
+    401418: Player003 Footsteps
+    401420: Player003 Head
+    401422: Player003 HeadNub
+    401424: Player003 L Calf
+    401426: Player003 L Clavicle
+    401428: Player003 L Finger0
+    401430: Player003 L Finger01
+    401432: Player003 L Finger02
+    401434: Player003 L Finger0Nub
+    401436: Player003 L Finger1
+    401438: Player003 L Finger11
+    401440: Player003 L Finger12
+    401442: Player003 L Finger1Nub
+    401444: Player003 L Finger2
+    401446: Player003 L Finger21
+    401448: Player003 L Finger22
+    401450: Player003 L Finger2Nub
+    401452: Player003 L Finger3
+    401454: Player003 L Finger31
+    401456: Player003 L Finger32
+    401458: Player003 L Finger3Nub
+    401460: Player003 L Finger4
+    401462: Player003 L Finger41
+    401464: Player003 L Finger42
+    401466: Player003 L Finger4Nub
+    401468: Player003 L Foot
+    401470: Player003 L Forearm
+    401472: Player003 L Hand
+    401474: Player003 L Thigh
+    401476: Player003 L Toe0
+    401478: Player003 L Toe01
+    401480: Player003 L Toe02
+    401482: Player003 L Toe0Nub
+    401484: Player003 L Toe1
+    401486: Player003 L Toe11
+    401488: Player003 L Toe12
+    401490: Player003 L Toe1Nub
+    401492: Player003 L Toe2
+    401494: Player003 L Toe21
+    401496: Player003 L Toe22
+    401498: Player003 L Toe2Nub
+    401500: Player003 L Toe3
+    401502: Player003 L Toe31
+    401504: Player003 L Toe32
+    401506: Player003 L Toe3Nub
+    401508: Player003 L Toe4
+    401510: Player003 L Toe41
+    401512: Player003 L Toe42
+    401514: Player003 L Toe4Nub
+    401516: Player003 L UpperArm
+    401518: Player003 Neck
+    401520: Player003 Pelvis
+    401522: Player003 R Calf
+    401524: Player003 R Clavicle
+    401526: Player003 R Finger0
+    401528: Player003 R Finger01
+    401530: Player003 R Finger02
+    401532: Player003 R Finger0Nub
+    401534: Player003 R Finger1
+    401536: Player003 R Finger11
+    401538: Player003 R Finger12
+    401540: Player003 R Finger1Nub
+    401542: Player003 R Finger2
+    401544: Player003 R Finger21
+    401546: Player003 R Finger22
+    401548: Player003 R Finger2Nub
+    401550: Player003 R Finger3
+    401552: Player003 R Finger31
+    401554: Player003 R Finger32
+    401556: Player003 R Finger3Nub
+    401558: Player003 R Finger4
+    401560: Player003 R Finger41
+    401562: Player003 R Finger42
+    401564: Player003 R Finger4Nub
+    401566: Player003 R Foot
+    401568: Player003 R Forearm
+    401570: Player003 R Hand
+    401572: Player003 R Thigh
+    401574: Player003 R Toe0
+    401576: Player003 R Toe01
+    401578: Player003 R Toe02
+    401580: Player003 R Toe0Nub
+    401582: Player003 R Toe1
+    401584: Player003 R Toe11
+    401586: Player003 R Toe12
+    401588: Player003 R Toe1Nub
+    401590: Player003 R Toe2
+    401592: Player003 R Toe21
+    401594: Player003 R Toe22
+    401596: Player003 R Toe2Nub
+    401598: Player003 R Toe3
+    401600: Player003 R Toe31
+    401602: Player003 R Toe32
+    401604: Player003 R Toe3Nub
+    401606: Player003 R Toe4
+    401608: Player003 R Toe41
+    401610: Player003 R Toe42
+    401612: Player003 R Toe4Nub
+    401614: Player003 R UpperArm
+    401616: Player003 Spine
+    401618: Player003 Spine1
+    401620: Player003 Spine2
+    401622: Player003 Spine3
+    401624: Projector
+    401626: Roof
+    401628: T-Chalk001
+    401630: T-Chalk002
+    401632: T-Eraser
+    401634: T_Table
+    401636: Table-00
+    401638: Table-01
+    401640: Table-02
+    401642: Table-03
+    401644: Table-04
+    401646: Table-05
+    401648: Tables
+    401650: Windows
+    401652: "\u5BF9\u8C61015"
+    401654: "\u5BF9\u8C61016"
+    401656: "\u5BF9\u8C61017"
+    2300000: Blackboard
+    2300002: Book-Close
+    2300004: Book-Close001
+    2300006: Book-Close002
+    2300008: Book-Close003
+    2300010: Book-Close004
+    2300012: Book-Close005
+    2300014: Book-Close006
+    2300016: Book-Close007
+    2300018: Book-Close008
+    2300020: Book-Close009
+    2300022: Book-Open
+    2300024: Book-Open001
+    2300026: Book-Open002
+    2300028: Box001
+    2300030: Box002
+    2300032: Box003
+    2300034: Box004
+    2300036: Box005
+    2300038: Box007
+    2300040: Box011
+    2300042: Box012
+    2300044: Box013
+    2300046: Box014
+    2300048: Box015
+    2300050: Box016
+    2300052: Box017
+    2300054: Box018
+    2300056: Box019
+    2300058: Chair-00
+    2300060: Chair-01
+    2300062: Chair-02
+    2300064: Chair-03
+    2300066: Chair-04
+    2300068: Chair-05
+    2300070: Classroom
+    2300072: Cylinder001
+    2300074: Cylinder004
+    2300076: Cylinder005
+    2300078: Cylinder006
+    2300080: Cylinder007
+    2300082: Cylinder008
+    2300084: Cylinder009
+    2300086: Cylinder010
+    2300088: Door
+    2300090: Door-F
+    2300092: Dreamer-D 1
+    2300094: Dreamer-D001
+    2300096: Eraser
+    2300098: Eraser001
+    2300100: Eraser002
+    2300102: Hose001
+    2300104: Hose002
+    2300106: Hose003
+    2300108: Hose004
+    2300110: Hose005
+    2300112: Hose006
+    2300114: P-Case
+    2300116: Pencil
+    2300118: Pencil001
+    2300120: Pencil002
+    2300122: Pencil003
+    2300124: Pencil004
+    2300126: Pencil005
+    2300128: Pencil006
+    2300130: Plane001
+    2300132: Projector
+    2300134: Roof
+    2300136: T-Chalk001
+    2300138: T-Chalk002
+    2300140: T-Eraser
+    2300142: T_Table
+    2300144: Table-00
+    2300146: Table-01
+    2300148: Table-02
+    2300150: Table-03
+    2300152: Table-04
+    2300154: Table-05
+    2300156: Windows
+    2300158: "\u5BF9\u8C61015"
+    2300160: "\u5BF9\u8C61016"
+    2300162: "\u5BF9\u8C61017"
+    3300000: Blackboard
+    3300002: Book-Close
+    3300004: Book-Close001
+    3300006: Book-Close002
+    3300008: Book-Close003
+    3300010: Book-Close004
+    3300012: Book-Close005
+    3300014: Book-Close006
+    3300016: Book-Close007
+    3300018: Book-Close008
+    3300020: Book-Close009
+    3300022: Book-Open
+    3300024: Book-Open001
+    3300026: Book-Open002
+    3300028: Box001
+    3300030: Box002
+    3300032: Box003
+    3300034: Box004
+    3300036: Box005
+    3300038: Box007
+    3300040: Box011
+    3300042: Box012
+    3300044: Box013
+    3300046: Box014
+    3300048: Box015
+    3300050: Box016
+    3300052: Box017
+    3300054: Box018
+    3300056: Box019
+    3300058: Chair-00
+    3300060: Chair-01
+    3300062: Chair-02
+    3300064: Chair-03
+    3300066: Chair-04
+    3300068: Chair-05
+    3300070: Classroom
+    3300072: Cylinder001
+    3300074: Cylinder004
+    3300076: Cylinder005
+    3300078: Cylinder006
+    3300080: Cylinder007
+    3300082: Cylinder008
+    3300084: Cylinder009
+    3300086: Cylinder010
+    3300088: Door
+    3300090: Door-F
+    3300092: Dreamer-D 1
+    3300094: Dreamer-D001
+    3300096: Eraser
+    3300098: Eraser001
+    3300100: Eraser002
+    3300102: Hose001
+    3300104: Hose002
+    3300106: Hose003
+    3300108: Hose004
+    3300110: Hose005
+    3300112: Hose006
+    3300114: P-Case
+    3300116: Pencil
+    3300118: Pencil001
+    3300120: Pencil002
+    3300122: Pencil003
+    3300124: Pencil004
+    3300126: Pencil005
+    3300128: Pencil006
+    3300130: Plane001
+    3300132: Projector
+    3300134: Roof
+    3300136: T-Chalk001
+    3300138: T-Chalk002
+    3300140: T-Eraser
+    3300142: T_Table
+    3300144: Table-00
+    3300146: Table-01
+    3300148: Table-02
+    3300150: Table-03
+    3300152: Table-04
+    3300154: Table-05
+    3300156: Windows
+    3300158: "\u5BF9\u8C61015"
+    3300160: "\u5BF9\u8C61016"
+    3300162: "\u5BF9\u8C61017"
+    4300000: Box001
+    4300002: Box002
+    4300004: Box003
+    4300006: Box004
+    4300008: Book-Close
+    4300010: T-Eraser
+    4300012: Book-Close001
+    4300014: Book-Open
+    4300016: Eraser
+    4300018: Box011
+    4300020: Box012
+    4300022: P-Case
+    4300024: Table-00
+    4300026: Table-01
+    4300028: Table-02
+    4300030: Table-03
+    4300032: Table-04
+    4300034: Table-05
+    4300036: Chair-05
+    4300038: Chair-04
+    4300040: Chair-03
+    4300042: Chair-02
+    4300044: Chair-01
+    4300046: Chair-00
+    4300048: Windows
+    4300050: Classroom
+    4300052: Roof
+    4300054: T_Table
+    4300056: Projector
+    4300058: Blackboard
+    4300060: Door-F
+    4300062: Door
+    4300064: "\u5BF9\u8C61015"
+    4300066: Box005
+    4300068: Cylinder001
+    4300070: Hose001
+    4300072: Hose002
+    4300074: Hose003
+    4300076: Hose004
+    4300078: Box007
+    4300080: Hose005
+    4300082: Hose006
+    4300084: Cylinder004
+    4300086: Cylinder005
+    4300088: Cylinder006
+    4300090: Cylinder007
+    4300092: Cylinder008
+    4300094: Cylinder009
+    4300096: Book-Close002
+    4300098: Book-Close003
+    4300100: Book-Close004
+    4300102: Book-Close005
+    4300104: Book-Open001
+    4300106: Book-Close006
+    4300108: Box013
+    4300110: Box014
+    4300112: Book-Open002
+    4300114: Pencil001
+    4300116: Pencil002
+    4300118: Box015
+    4300120: Box016
+    4300122: Pencil003
+    4300124: Pencil004
+    4300126: Box017
+    4300128: Box018
+    4300130: Book-Close007
+    4300132: Book-Close008
+    4300134: Book-Close009
+    4300136: Pencil005
+    4300138: Eraser001
+    4300140: Eraser002
+    4300142: T-Chalk001
+    4300144: Box019
+    4300146: Plane001
+    4300148: Cylinder010
+    4300150: Dreamer-D
+    4300152: Dreamer-D001
+    4300154: "\u5BF9\u8C61017"
+    4300156: "\u5BF9\u8C61016"
+    4300158: Pencil
+    4300160: Player
+    4300162: NPC-Left_Front
+    4300164: NPC-Right_Back
+    4300166: NPC-Right_Front
+    4300168: NPC-Walk
+    4300170: PLayer-FPS
+    4300172: NPC-Left_Front
+    4300174: Pencil006
+    4300176: T-Chalk002
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Light
+    11100000: //RootNode
+    13700000: NPC-Left_Front 1
+    13700002: NPC-Left_Front 2
+    13700004: NPC-Right_Back
+    13700006: NPC-Right_Front
+    13700008: NPC-Walk 1
+    13700010: Player 1
+    13700012: PLayer-FPS
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 400
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
