@@ -121,7 +121,7 @@ public class RandomQuestions : MonoBehaviour
 
 
         Questions[10] = new string[6] { "Quelle est le plus large\n continent du monde?", "Europe", "Asie", "Amerique du Nord", "Amerique du Sud", "Asie" };
-        Questions[11] = new string[6] { "Quel pays a les lacs\n les plus naturels?", "Canada", "Russie", "États-Unis", "Australie", "Canada" };
+        Questions[11] = new string[6] { "Quel pays a le plus de lacs\n naturels?", "Canada", "Russie", "États-Unis", "Australie", "Canada" };
         Questions[12] = new string[6] { "Quelle rivière traverse\n Bagdad?", "Karun", "Jordan", "Tigris", "le Nile", "Tigris" };
         Questions[13] = new string[6] { "Quelle est le plus large\n pays du monde?", "Canada", "la Chine", "la Russie", "les États-Unis", "la Russie" };
         Questions[14] = new string[6] { "Dans quel pays pouvez-vous\n visiter le Machu Picchu?", "Pérou", "Bolivie", "Colombie", "Egypte", "Pérou" };
