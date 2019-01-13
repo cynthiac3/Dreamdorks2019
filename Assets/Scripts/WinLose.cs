@@ -20,14 +20,21 @@ public class WinLose : MonoBehaviour {
     public GameObject menu;
 
     public GameObject bubble;
-
+    public GameObject detentionTitle, winningTitle;
     public bool isMazing = false;
+
+    public GameObject question3D;
+
+    public GameObject teacher;
 
     public void EndWin()
     {
+        teacher.GetComponent<Animator>().SetTrigger("GameWon");
+        winningTitle.SetActive(true);
         cam.GetComponent<CameraFollow>().enabled = false;
         SchoolsOut.SetActive(true);
         canvas.SetActive(false);
+        question3D.SetActive(false);
         menu.GetComponent<Menu>().WinScreen.SetActive(true);
     }
 
@@ -59,7 +66,6 @@ public class WinLose : MonoBehaviour {
         else if(mode == 0) // switching to mode 0 -> BossFight
         {
             mazeGame++;
-            bubble.SetActive(true);
             //WAIT? and turn off the maze game 
             gameMode.SetTrigger("BossTrigger");
             canvas.SetActive(true);
@@ -101,9 +107,12 @@ public class WinLose : MonoBehaviour {
 
     public void LoseGame()
     {
+        teacher.GetComponent<Animator>().SetTrigger("GameLost");
+        detentionTitle.SetActive(true);
         cam.GetComponent<CameraFollow>().enabled = false;
         Detention.SetActive(true);
         canvas.SetActive(false);
+        question3D.SetActive(false);
         menu.GetComponent<Menu>().GameOverScreen.SetActive(true);
         Debug.Log("LOSE");
     }

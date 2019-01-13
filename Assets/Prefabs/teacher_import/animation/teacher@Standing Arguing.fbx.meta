@@ -118,7 +118,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Standing Arguing
       takeName: mixamo.com
-      firstFrame: 16
+      firstFrame: 86
       lastFrame: 144
       wrapMode: 0
       orientationOffsetY: 0

@@ -17,6 +17,8 @@ public class RandomQuestions : MonoBehaviour
     public GameObject text3D;
     public GameObject gm;
 
+    public GameObject teacher;
+
     public GameObject right, wrong;
     //public AnimationClip righClipOut, wrongClipOut;
 
@@ -82,6 +84,7 @@ public class RandomQuestions : MonoBehaviour
 
         if (button == answer)
         {
+            teacher.GetComponent<Animator>().SetTrigger("RightAnswer");
             wrong.SetActive(false);
             right.SetActive(true);
             right.GetComponent<Animator>().SetTrigger("FadeTrigger");
@@ -91,6 +94,7 @@ public class RandomQuestions : MonoBehaviour
         }
         else
         {
+            teacher.GetComponent<Animator>().SetTrigger("WrongAnswer");
             right.SetActive(false);
             wrong.SetActive(true);
             wrong.GetComponent<Animator>().SetTrigger("FadeTrigger");
@@ -122,7 +126,7 @@ public class RandomQuestions : MonoBehaviour
         Questions[13] = new string[6] { "Quelle est le plus large\n pays du monde?", "Canada", "la Chine", "la Russie", "les États-Unis", "la Russie" };
         Questions[14] = new string[6] { "Dans quel pays pouvez-vous\n visiter le Machu Picchu?", "Pérou", "Bolivie", "Colombie", "Egypte", "Pérou" };
         Questions[15] = new string[6] { "Quel est le seul continent\n possédant des terres dans\n les quatre hémisphères?", "Amérique du Nord", "Asie", "Amérique du Sud", "Afrique", "Afrique" };
-        Questions[16] = new string[6] { "Quelle est la plus vieille\n ville du monde?", "Jérusalem", "Damas", "Athènes", "Amerique du Sud", "Jéricho" };
+        Questions[16] = new string[6] { "Quelle est la plus vieille\n ville du monde?", "Jérusalem", "Damas", "Athènes", "Jéricho", "Jéricho" };
         Questions[17] = new string[6] { "Dans quel pays se situe\n l'île Kangourou?", "l’Australie", "Canada", "Japon", "la Chine", "l’Australie" };
         Questions[18] = new string[6] { "Quelle est la plus haute\n montagne du monde?", "Qogir", "Mont St Bruno", "le Mont Kilimanjaro", "Mont Everest", "Mont Everest" };
         Questions[19] = new string[6] { "Quel est le plus grand pays\n d'Amérique du Sud?", "Brésil", "Argentine", "Colombie", "Pérou", "Brésil" };
@@ -136,7 +140,7 @@ public class RandomQuestions : MonoBehaviour
         Questions[24] = new string[6] { "À quelle température Celsius\n et Fahrenheit sont-ils égaux?", "40", "-40", "0", "100", "-40" };
         Questions[25] = new string[6] { "Où le son voyage-t-il\n plus vite?", "Eau", "Air", "Pudding", "Sirop d’érable", "Eau" };
         Questions[26] = new string[6] { "Quelle planète a le\n plus de lunes?", "Jupitre", "La lune", "Vénus", "Terre", "Jupitre" };
-        Questions[27] = new string[6] { "Une tomate est ___.", "Une sorte de pain", "Un légume", "Un fruit", "de la viande", "un fruit" };
+        Questions[27] = new string[6] { "Une tomate est ___.", "Une sorte de pain", "Un légume", "Un fruit", "de la viande", "Un fruit" };
         Questions[28] = new string[6] { "Quelle forme est la terre?", "Un disque", "Une sphère", "Un cercle", "Un triangle", "Une sphère" };
         Questions[29] = new string[6] { "Pluton est ___.", "une planète", "une lune", "vivant", "une planète naine", "une planète naine" };
 

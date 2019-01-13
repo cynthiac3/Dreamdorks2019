@@ -17,6 +17,8 @@ public class Menu : MonoBehaviour {
     public GameObject GameOverScreen;
     public GameObject WinScreen;
 
+    //public GameObject animFPS; ANIMATION SELON LE GAMEMODE
+
 
     public AudioSource buttonPress;
 
@@ -42,6 +44,7 @@ public class Menu : MonoBehaviour {
         intro.SetActive(false);
 
         Win.GetComponent<WinLose>().SwitchGame(1);
+        //animFPS.SetActive(true);
         //cam.GetComponent<Animator>().SetTrigger("MazeTrigger"); //Gamemode maze first
 
         //WaitTime(introClip);
