@@ -14,6 +14,9 @@ public class Menu : MonoBehaviour {
 
     public GameObject Win;
 
+    public GameObject GameOverScreen;
+    public GameObject WinScreen;
+
     /*
     IEnumerator WaitTime(AnimationClip intro)
     {
@@ -22,6 +25,18 @@ public class Menu : MonoBehaviour {
     }
     */
 
+    public void ReturnToMain()
+    {
+        Debug.Log("RETURN");
+        intro.SetActive(true);
+        intro.GetComponent<Animation>().enabled = true;
+        intro.GetComponent<Animation>().Play();
+        menu.GetComponent<XboxController>().enabled = true;
+        cam.GetComponent<CameraFollow>().enabled = false;
+        menu.SetActive(true);
+        canvas.SetActive(false);
+    }
+    
 
     public void StartGame()
     {
@@ -65,15 +80,9 @@ public class Menu : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        intro.GetComponent<Animation>().enabled = true;
-        intro.GetComponent<Animation>().Play();
-
-        menu.GetComponent<XboxController>().enabled = true;
-        cam.GetComponent<CameraFollow>().enabled = false;
-        menu.SetActive(true);
-        canvas.SetActive(false);
-        //animator.SetBool("isZooming", true);
-
+        GameOverScreen.SetActive(false);
+        WinScreen.SetActive(false);
+        ReturnToMain();
     }
 	
 	// Update is called once per frame
