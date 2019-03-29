@@ -17,6 +17,8 @@ public class EnemyManager : MonoBehaviour {
 
     public float speedMultiplier = 0.1f;
 
+    public bool gamePaused = true;
+
 	// Use this for initialization
 	void Start () {
         for (int i = 0; i < transform.childCount; i++)
@@ -30,17 +32,24 @@ public class EnemyManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        timeCount += Time.deltaTime;
+      
+        if (!gamePaused)
+        {
+            timeCount += Time.deltaTime;
 
-        if (timeCount >= timeUpdate) {
-            boostEnemies();
-            timeCount = 0.0f;
+            if (timeCount >= timeUpdate) // enemies get faster
+            {
+                boostEnemies();
+                timeCount = 0.0f;
+            }
+
+            if (player.GetComponent<CharaController>().hasDied) // enemies speed reset
+            {
+                slowEnemies();
+                player.GetComponent<CharaController>().hasDied = false;
+            }
         }
 
-        if (player.GetComponent<CharaController>().hasDied) {
-            slowEnemies();
-            player.GetComponent<CharaController>().hasDied = false;
-        }
 	}
 
     private void boostEnemies() {
@@ -62,9 +71,11 @@ public class EnemyManager : MonoBehaviour {
     public void bossTime() {
         GameObject.Find("Win").GetComponent<WinLose>().SwitchGame(0);
         speedMultiplier = 0.0f;
+        gamePaused = true;
     }
 
     public void mazeTime() {
         speedMultiplier = 0.1f;
+        gamePaused = false;
     }
 }

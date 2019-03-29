@@ -50,6 +50,7 @@ public class Menu : MonoBehaviour {
         //WaitTime(introClip);
 
         //jeu de maze commmence
+        GameObject.Find("Enemies").GetComponent<EnemyManager>().gamePaused = false;
     }
     /*
     void AnimeOver()
